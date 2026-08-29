@@ -45,9 +45,10 @@ def bilhoes(x: float) -> str:
     return f"R$ {x / 1e9:.1f} bi"
 
 
-def save(fig: plt.Figure, name: str) -> Path:
+def save(fig: plt.Figure, name: str, *, tight: bool = True) -> Path:
     path = OUT / name
-    fig.tight_layout()
+    if tight:
+        fig.tight_layout()
     fig.savefig(path, dpi=160, bbox_inches="tight", facecolor="white")
     plt.close(fig)
     print(f"wrote {path}")
@@ -373,13 +374,13 @@ def chart_efeito_trabalho(m: dict[str, float]) -> None:
 
 def chart_populacao(m: dict[str, float]) -> None:
     labels = [
-        "CLT\n(PNAD privado)",
-        "Informais +\nintermitentes*",
-        "MEI\n(ativos)",
-        "Empresários\nativos\n(não-MEI)**",
-        "Bolsa Família\nidade ativa\nempregados***",
-        "Bolsa Família\nidade ativa\nnão ocupados***",
-        "Bolsa Família\nsem idade\nativa***",
+        "Trabalhadores CLT\n(PNAD privado)",
+        "Trabalhadores\nInformais +\nIntermitentes*",
+        "Trabalhadores MEI\n(ativos)",
+        "Empresários ativos\n(não-MEI)**",
+        "Trabalhadores\nbeneficiários do\nBolsa Família***",
+        "Beneficiários do\nBolsa Família em\nidade ativa -\nDesocupados***",
+        "Crianças e Idosos\nno Bolsa Família***",
     ]
     values = [
         m["pnad_clt_privado"] / 1e6,
@@ -392,13 +393,17 @@ def chart_populacao(m: dict[str, float]) -> None:
     ]
     colors = [NAVY, AMBER, "#7C3AED", SLATE, TEAL, CORAL, "#0D9488"]
 
-    fig, ax = plt.subplots(figsize=(13.5, 6.4))
-    bars = ax.bar(labels, values, color=colors, width=0.68)
+    fig, ax = plt.subplots(figsize=(9.2, 7.0))
+    x_pos = np.arange(len(labels))
+    bars = ax.bar(x_pos, values, color=colors, width=0.74)
+    ax.set_xticks(x_pos)
+    ax.set_xticklabels(labels, fontsize=7.8)
+    ax.set_xlim(-0.52, len(labels) - 0.48)
     style_axes(ax)
     ax.grid(axis="y", color="#E2E8F0", linewidth=0.8)
-    ax.set_ylabel("Milhões", fontsize=11)
+    ax.set_ylabel("Milhões de pessoas", fontsize=11)
     ax.set_title(
-        "Mercado de trabalho × pessoas no Bolsa Família (2024)",
+        "Pessoas Ativas e Inativas no Mercado de Trabalho",
         fontsize=13,
         fontweight="bold",
         color=TEXT,
@@ -415,17 +420,17 @@ def chart_populacao(m: dict[str, float]) -> None:
             color=TEXT,
         )
     ax.set_ylim(0, max(values) * 1.22)
-    ax.annotate(
-        "*Informais PNAD (40,3 mi) + intermitentes RAIS (~0,47 mi; celetistas atípicos). "
-        "**Empresas ativas menos MEI (Mapa de Empresas). "
-        "***Estimativas: 50% em idade ativa; ocupados = 46,8% das pessoas em lares Bolsa Família "
-        "(IPEA). Conjuntos se cruzam.",
-        xy=(0.0, -0.22),
-        xycoords="axes fraction",
-        fontsize=8.0,
-        color=SLATE,
-    )
-    save(fig, "07_populacao_trabalho_bf.png")
+    fig.subplots_adjust(left=0.08, right=0.98, bottom=0.34, top=0.90)
+    footnotes = [
+        "* Informais PNAD (40,3 mi) + intermitentes RAIS (~0,47 mi; celetistas atípicos).",
+        "** Empresas ativas menos MEI (Mapa de Empresas).",
+        "*** Estimativas Bolsa Família: trabalhadores ocupados = 46,8% das pessoas em "
+        "lares (IPEA); desocupados em idade ativa = residual; crianças (0–13 anos) e "
+        "idosos (65+) ≈ 50% do total. Conjuntos se cruzam.",
+    ]
+    for idx, line in enumerate(footnotes):
+        fig.text(0.08, 0.045 - idx * 0.038, line, fontsize=7.6, color=SLATE, ha="left")
+    save(fig, "07_populacao_trabalho_bf.png", tight=False)
 
 
 def main() -> None:

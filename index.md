@@ -667,7 +667,7 @@ trabalho muito precário.
 
 ## 8. Quem trabalha e quem está no Bolsa Família?
 
-![Mercado de trabalho e pessoas no Bolsa Família](assets/charts/07_populacao_trabalho_bf.png)
+![Pessoas Ativas e Inativas no Mercado de Trabalho](assets/charts/07_populacao_trabalho_bf.png)
 
 ### Volumes 2024
 
@@ -818,16 +818,62 @@ Brasil [46]. Na prática, as famílias passaram de um programa ao outro sem
 
 ### Diferenças técnicas (resumo)
 
-
-| Tema | Auxílio Brasil (2021–2023) | Bolsa Família atual (Lei 14.601/2023) |
-| ---- | -------------------------- | ------------------------------------ |
-| Base legal | Lei 14.284/2021 | Lei 14.601/2023 [46] |
-| Nome e marca | Novo nome federal | Retomada do nome Bolsa Família |
-| Piso familiar | Evoluiu para piso de **R$ 600** (após reajustes no período) | Mantém lógica de piso de **R$ 600**, com composição por benefícios |
-| Composição do valor | Vários benefícios (renda, infância etc.) com regras próprias | **Benefício de Renda de Cidadania** (por pessoa) + **Benefício Complementar** até o piso + adicionais (ex.: criança até 6 anos, gestante/nutriz/adolescente) [46] |
-| Condicionalidades | Mais frouxas / herdadas do período emergencial | Pré-natal, vacinação, acompanhamento nutricional e **frequência escolar** (60% de 4–6 anos; 75% de 6–18) [46] |
-| Quem sobe de renda | Regras de permanência variáveis no período | **Regra de Proteção:** família pode ficar até **24 meses** com **50%** do benefício se a renda subir acima da linha, até um teto [22][46] |
-| Cadastro | CadÚnico | Mesmo CadÚnico (continuidade operacional) |
+<table>
+<colgroup>
+<col style="width:22%" />
+<col style="width:39%" />
+<col style="width:39%" />
+</colgroup>
+<thead>
+<tr>
+<th>Tema</th>
+<th>Auxílio Brasil (2021–2023)</th>
+<th>Bolsa Família atual (Lei 14.601/2023)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Base legal</td>
+<td>Lei nº 14.284/2021 (dez/2021)</td>
+<td>Lei nº 14.601/2023 (mar/2023) [46]</td>
+</tr>
+<tr>
+<td>Denominação pública</td>
+<td>Nome federal “Auxílio Brasil”</td>
+<td>Nome federal “Programa Bolsa Família”</td>
+</tr>
+<tr>
+<td>Piso do benefício familiar</td>
+<td>Piso familiar de R$ 600 após reajustes no período</td>
+<td>Piso familiar de R$ 600; valor total soma componentes do desenho atual [46]</td>
+</tr>
+<tr>
+<td>Composição do valor pago</td>
+<td>Benefícios de renda, infância e demais componentes definidos na lei do período</td>
+<td>Benefício de Renda de Cidadania (por pessoa) + Benefício Complementar até o piso + adicionais setoriais (criança, gestante/nutriz, adolescente) [46]</td>
+</tr>
+<tr>
+<td>Condicionalidades de saúde</td>
+<td>Controles de saúde previstos, com flexibilização herdada do período emergencial</td>
+<td>Pré-natal, vacinação e acompanhamento nutricional conforme calendário do programa [46]</td>
+</tr>
+<tr>
+<td>Condicionalidades de educação</td>
+<td>Regras escolares do período, sem padronização única de percentual no texto consolidado</td>
+<td>Frequência escolar mínima de 60% (4–6 anos) e 75% (6–18 anos) [46]</td>
+</tr>
+<tr>
+<td>Aumento de renda do domicílio</td>
+<td>Regras de permanência e revisão cadastral variáveis no intervalo</td>
+<td>Regra de Proteção: até 24 meses com 50% do benefício se renda superar a linha, até teto definido [22][46]</td>
+</tr>
+<tr>
+<td>Cadastro e operação</td>
+<td>Cadastro Único (CadÚnico) como base de seleção</td>
+<td>Cadastro Único (CadÚnico) como base de seleção</td>
+</tr>
+</tbody>
+</table>
 
 **Em linguagem simples:** o Auxílio Brasil foi a **versão com outro nome e
 outro desenho legal** do programa de transferência às famílias pobres no
@@ -849,30 +895,101 @@ o **valor da transferência**, não sobre o nome do cartão.
 
 Transferência de renda a famílias pobres **com condições** (escola, saúde) —
 em inglês, *conditional cash transfers* (CCT) — não é ideia só brasileira.
-Abaixo, referências breves e neutras para o leitor situar o Bolsa Família no
-mapa internacional.
+Abaixo, referências breves e neutras para situar o Bolsa Família no mapa
+internacional. Programas de renda mínima em países ricos usam lógica parecida
+(complemento de renda e obrigações de inserção), mas raramente copiam o
+modelo latino-americano de verificação escolar/saúde.
 
 | País | Programa (nome mais conhecido) | Ideia central |
 | ---- | ------------------------------ | ------------- |
-| **México** | Progresa → Oportunidades → **Prospera** | Um dos CCT pioneiros (anos 1990). Pagamento ligado a escola e saúde; muito estudado como “padrão ouro” de avaliação [47] |
-| **Colômbia** | **Familias en Acción** | Transferência condicionada a frequência escolar e controles de saúde; escala menor que a brasileira [47] |
-| **Chile** | Chile Solidario / sucessores | Foco mais estreito na pobreza extrema, com acompanhamento familiar além do dinheiro [48] |
-| **África do Sul** | **Child Support Grant** | Apoio em dinheiro a cuidadores de crianças; em geral **menos condicional** que o modelo latino-americano clássico [47] |
-| **EUA** | SNAP (alimentação) e EITC (crédito no imposto) | Não é CCT “estilo Bolsa Família”; combate pobreza por **vale-alimentação** e **crédito tributário a quem trabalha** |
+| **México** | Prospera → Programas del Bienestar | CCT pioneiro (anos 1990); transferência ligada a educação e saúde; desenho alterado após 2019 [47] |
+| **Colômbia** | Familias en Acción | Transferência condicionada a frequência escolar e controles de saúde; escala intermediária na região [47] |
+| **Peru** | Juntos | CCT nacional com verificação comunitária; cobertura menor que Brasil ou México [51] |
+| **Chile** | Subsidio Familiar / programas integrados | Transferências familiares combinadas com acompanhamento social [48] |
+| **Filipinas** | Pantawid Pamilyang Pilipino Program (4Ps) | CCT institucionalizado por lei; focalização via cadastro nacional Listahanan [49] |
+| **Indonésia** | Program Keluarga Harapan (PKH) | CCT em escala continental; condicionalidades escolares e de saúde [51] |
+| **África do Sul** | Child Support Grant | Apoio em dinheiro a cuidadores de crianças; em geral menos condicional que o modelo latino-americano clássico [47] |
+| **Estados Unidos** | TANF; SNAP (alimentação); EITC (crédito no imposto) | Assistência em dinheiro administrada pelos estados (TANF); vale-alimentação e crédito tributário a quem trabalha; modelos distintos do CCT latino-americano [52] |
+| **França** | RSA (Revenu de solidarité active) | Complemento de renda até um teto mínimo; obrigações de inserção quando aplicável [50] |
+| **Portugal** | RSI (Rendimento Social de Inserção) | Benefício em dinheiro com contrato de integração social e profissional [53] |
+| **Coreia do Sul** | National Basic Livelihood Security Scheme | Rede de proteção mínima com elegibilidade e recursos definidos em lei [51] |
+| **Alemanha** | Bürgergeld | Renda mínima com incentivo à atividade; verificações de disponibilidade para trabalho [51] |
+
+### Benchmark em cinco dimensões
+
+Para comparar sem hierarquizar “melhor” ou “pior”, quatro programas com
+documentação pública ampla e desenhos distintos (dois CCT latino-asiáticos,
+um CCT andino e um complemento de renda europeu):
+
+<table>
+<colgroup>
+<col style="width:18%" />
+<col style="width:20.5%" />
+<col style="width:20.5%" />
+<col style="width:20.5%" />
+<col style="width:20.5%" />
+</colgroup>
+<thead>
+<tr>
+<th>Dimensão</th>
+<th>Bolsa Família (Brasil)</th>
+<th>Pantawid 4Ps (Filipinas)</th>
+<th>Familias en Acción (Colômbia)</th>
+<th>RSA (França)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Escala recente</td>
+<td>~21,1 mi famílias; ~57 mi pessoas (jan/2024) [27]</td>
+<td>~4,0 mi domicílios ativos (dez/2024) [49]</td>
+<td>~2,5 mi famílias (ordem de grandeza, série recente) [47]</td>
+<td>~1,81 mi domicílios (~3,6 mi pessoas no domicílio, 2024) [50]</td>
+</tr>
+<tr>
+<td>Transferência (piso ou média)</td>
+<td>Piso familiar ~R$ 600/mês; média varia com composição do lar [46]</td>
+<td>Componentes de saúde e educação na ordem de PHP 750–1.400/mês por domicílio [49]</td>
+<td>Transferência média na ordem de COP 80 mil/mês (faixa documentada na série) [47]</td>
+<td>Média ~€546/mês por domicílio (2024); teto varia com composição [50]</td>
+</tr>
+<tr>
+<td>Condicionalidades principais</td>
+<td>Saúde (pré-natal, vacinas, nutrição) e frequência escolar por faixa etária [46]</td>
+<td>Assistência pré-natal/nutrição; frequência escolar mínima de 85% (básico e secundário) [49]</td>
+<td>Frequência escolar e controles de saúde periódicos [47]</td>
+<td>Complemento de renda com obrigações de inserção quando aplicável; sem lista escolar/saúde como no modelo latino-americano [50]</td>
+</tr>
+<tr>
+<td>Focalização / cadastro</td>
+<td>CadÚnico; linha de renda per capita por pessoa [46]</td>
+<td>Listahanan (cadastro nacional de pobreza) [49]</td>
+<td>SISBÉN / encuesta de hogares [47]</td>
+<td>Declaração de recursos; complemento até teto legal por tipo de domicílio [50]</td>
+</tr>
+<tr>
+<td>Gasto público (ordem)</td>
+<td>~R$ 168 bi em 2024 (fração do orçamento federal e do PIB) [1]</td>
+<td>~PHP 71 bi em grants pagos em 2023 (educação, saúde e subsídios) [49]</td>
+<td>Ordem de 0,2–0,3% do PIB (série histórica, literatura) [47]</td>
+<td>~€11,9 bi em pagamentos RSA em 2024 [50]</td>
+</tr>
+</tbody>
+</table>
 
 **Pontos em comum** com o Bolsa Família: foco em famílias pobres; uso de
 cadastro; tentativa de ligar renda de curto prazo a escola/saúde das
-crianças.
+crianças (nos CCT) ou a inserção no mercado (nos complementos de renda).
 
-**Pontos em que o Brasil se destaca na literatura:** **escala** (dezenas de
-milhões de pessoas), uso intensivo do **Cadastro Único** e, em vários
-estudos, **bom custo-efetividade** na redução de pobreza e desigualdade
+**Pontos em que o Brasil se destaca na literatura:** escala (dezenas de
+milhões de pessoas), uso intensivo do Cadastro Único e, em vários
+estudos, bom custo-efetividade na redução de pobreza e desigualdade
 relativo ao gasto [38][48].
 
 **Limite da comparação:** cada país tem salário mínimo, preço de comida,
 escola pública e regra fiscal diferentes. “Parecido” não significa
 “igual” — nem “melhor” ou “pior”. Serve só para lembrar que o debate
-brasileiro sobre transferência de renda **não é exclusivo** do Brasil.
+brasileiro sobre transferência de renda não é exclusivo do Brasil.
 
 ---
 
@@ -923,6 +1040,11 @@ para o ID `[N]`.
 | [46] | Lei nº 14.601/2023 — institui o Programa Bolsa Família                         | Planalto                      | [Abrir](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14601.htm)                                                                                                                                          |
 | [47] | CCT na América Latina (Prospera, Familias en Acción, Bolsa Família)            | Literatura / PAHO             | [Abrir](https://scielosp.org/article/rpsp/2016.v40n2/124-137/en/)                                                                                                                                                         |
 | [48] | Evaluating Bolsa Família in comparative perspective                            | Estudos comparativos          | [Abrir](https://doi.org/10.1017/s0023879100009390)                                                                                                                                                                        |
+| [49] | Pantawid Pamilyang Pilipino Program (4Ps) — relatórios de implementação 2023–2024 | DSWD (Filipinas)              | [Abrir](https://pantawid.dswd.gov.ph/wp-content/uploads/2025/06/Fourth-Quarter-PIR.pdf)                                                                                                                                   |
+| [50] | RSA — análise estatística 2024 (beneficiários e valores)                       | CNAF (França)                 | [Abrir](https://www.caf.fr/sites/default/files/medias/cnaf/Nous_connaitre/Recherche_et_statistiques/Analyses_statistiques/CNAF_n%C2%B06_Analyses_statistiques_RSA.pdf)                                                    |
+| [51] | Conditional cash transfers — revisão comparativa (América Latina e Ásia)       | World Bank / literatura       | [Abrir](https://documents1.worldbank.org/curated/en/099816304042510848/pdf/IDU-89fa95d7-3cf8-4cc2-8d6c-989ca434a96a.pdf)                                                                                                  |
+| [52] | Temporary Assistance for Needy Families (TANF) — visão geral                   | U.S. HHS / OFA                | [Abrir](https://www.acf.hhs.gov/ofa/programs/tanf/about)                                                                                                                                                                  |
+| [53] | Rendimento Social de Inserção (RSI) — regras e elegibilidade                 | Segurança Social (UE/Portugal) | [Abrir](https://ec.europa.eu/social/main.jsp?catId=1125&langId=en&intPageId=4742)                                                                                                                                         |
 
 
 

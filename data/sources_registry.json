@@ -211,6 +211,41 @@
       "institution": "MDS",
       "url": "https://cecad.cidadania.gov.br/",
       "topics": ["bf_age", "cadunico"]
+    },
+    {
+      "id": 49,
+      "title": "Pantawid Pamilyang Pilipino Program (4Ps) — relatórios de implementação 2023–2024",
+      "institution": "DSWD (Filipinas)",
+      "url": "https://pantawid.dswd.gov.ph/wp-content/uploads/2025/06/Fourth-Quarter-PIR.pdf",
+      "topics": ["cct_international", "4ps"]
+    },
+    {
+      "id": 50,
+      "title": "RSA — análise estatística 2024 (beneficiários e valores)",
+      "institution": "CNAF (França)",
+      "url": "https://www.caf.fr/sites/default/files/medias/cnaf/Nous_connaitre/Recherche_et_statistiques/Analyses_statistiques/CNAF_n%C2%B06_Analyses_statistiques_RSA.pdf",
+      "topics": ["cct_international", "rsa"]
+    },
+    {
+      "id": 51,
+      "title": "Conditional cash transfers — revisão comparativa (América Latina e Ásia)",
+      "institution": "World Bank / literatura",
+      "url": "https://documents1.worldbank.org/curated/en/099816304042510848/pdf/IDU-89fa95d7-3cf8-4cc2-8d6c-989ca434a96a.pdf",
+      "topics": ["cct_international"]
+    },
+    {
+      "id": 52,
+      "title": "Temporary Assistance for Needy Families (TANF) — visão geral",
+      "institution": "U.S. HHS / OFA",
+      "url": "https://www.acf.hhs.gov/ofa/programs/tanf/about",
+      "topics": ["cct_international", "tanf"]
+    },
+    {
+      "id": 53,
+      "title": "Rendimento Social de Inserção (RSI) — regras e elegibilidade",
+      "institution": "Segurança Social (UE/Portugal)",
+      "url": "https://ec.europa.eu/social/main.jsp?catId=1125&langId=en&intPageId=4742",
+      "topics": ["cct_international", "rsi"]
     }
   ]
 }
