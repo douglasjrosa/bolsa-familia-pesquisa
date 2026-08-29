@@ -1,24 +1,33 @@
-# Bolsa Família — Estudo Comparativo 2024
+# Bolsa Família — Pesquisa Comparativa 2024
 
-Canvas de apresentação que compara o custo e a escala do **Bolsa Família** com juros da dívida pública, renúncias fiscais, emendas parlamentares e previdência militar — usando apenas fontes oficiais e institucionais (MDS, IBGE, Banco Central, Receita/SPE, Portal da Transparência, TCU, IPEA, FGV).
+Pesquisa que compara o custo e a escala do **Bolsa Família** com juros da
+dívida pública, renúncias fiscais, emendas parlamentares e previdência militar —
+usando fontes oficiais e institucionais (MDS, IBGE, Banco Central, Receita/SPE,
+Portal da Transparência, TCU, IPEA, FGV), e registrando opiniões que circularam
+sobre cada tema.
+
+O documento foi escrito para leitura independente (incluindo conversão a PDF).
+Não é guia de conversa nem apresentação. Não defende nem ataca o programa.
 
 ## Documento principal
 
-Abra **[docs/bolsa-familia-canvas.md](docs/bolsa-familia-canvas.md)** — é o Canvas completo (seções 1–8, gráficos e bibliografia linkada).
+Abra **[docs/bolsa-familia-pesquisa.md](docs/bolsa-familia-pesquisa.md)** —
+pesquisa completa (seções 0–11, gráficos, Opiniões e Fatos, e fontes).
 
 ## Ano-base
 
-**2024** — último exercício em que todas as rubricas do estudo têm série anual fechada e comparável (incluindo a DIRBI de renúncias fiscais).
+**2024** — último exercício em que todas as rúbricas do estudo têm série anual
+fechada e comparável (incluindo a DIRBI de renúncias fiscais).
 
 ## Estrutura do repositório
 
 ```
-docs/bolsa-familia-canvas.md   # Canvas de apresentação
-data/2024_master.csv           # Todos os números usados
-data/sources_registry.json     # Título + URL de cada fonte
-assets/charts/*.png            # Gráficos gerados
-scripts/generate_charts.py     # Regenera os PNGs
-scripts/extract_data.py        # Valida métricas-chave
+docs/bolsa-familia-pesquisa.md  # Pesquisa completa
+data/2024_master.csv            # Todos os números usados
+data/sources_registry.json      # Título + URL de cada fonte de dado
+assets/charts/*.png             # Gráficos gerados
+scripts/generate_charts.py      # Regenera os PNGs
+scripts/extract_data.py         # Valida métricas-chave
 ```
 
 ## Como regenerar os gráficos
@@ -40,8 +49,9 @@ Os PNGs são gravados em `assets/charts/`.
 | Previdência militar (sistema) | R$ 61,5 bi |
 | Emendas parlamentares (empenhado) | R$ 44,8 bi |
 
-Detalhes, limitações metodológicas e links oficiais estão no Canvas.
+Detalhes, limitações metodológicas e links oficiais estão na Pesquisa.
 
 ## Licença de uso dos dados
 
-Os números são de órgãos públicos brasileiros. Cite sempre a fonte original ao reutilizar.
+Os números são de órgãos públicos brasileiros. Cite sempre a fonte original ao
+reutilizar.

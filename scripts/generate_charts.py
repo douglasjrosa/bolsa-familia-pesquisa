@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate presentation charts for the 2024 Bolsa Familia comparative canvas."""
+"""Generate charts for the 2024 Bolsa Familia comparative research document."""
 
 from __future__ import annotations
 
