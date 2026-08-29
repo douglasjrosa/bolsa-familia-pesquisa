@@ -246,6 +246,34 @@
       "institution": "Segurança Social (UE/Portugal)",
       "url": "https://ec.europa.eu/social/main.jsp?catId=1125&langId=en&intPageId=4742",
       "topics": ["cct_international", "rsi"]
+    },
+    {
+      "id": 54,
+      "title": "Monetary transfers to households — Family tax benefits 2023-24",
+      "institution": "ABS (Australia)",
+      "url": "https://www.abs.gov.au/articles/insights-government-finance-statistics-june-2024",
+      "topics": ["cct_international", "australia_ftb"]
+    },
+    {
+      "id": 55,
+      "title": "Family Tax Benefit — children supported and recipient counts",
+      "institution": "Tax Expenditures Lab / DSS",
+      "url": "https://www.taxexpenditures.org/2025/08/19/many-parents-mostly-mothers-lose-family-payments-from-the-first-dollar-they-earn/",
+      "topics": ["cct_international", "australia_ftb"]
+    },
+    {
+      "id": 56,
+      "title": "4Ps budget 2024 — PHP 112.8 billion",
+      "institution": "PNA / DSWD (Philippines)",
+      "url": "https://www.pna.gov.ph/articles/1219723",
+      "topics": ["cct_international", "4ps"]
+    },
+    {
+      "id": 57,
+      "title": "PKH 2024 — IDR 28.71 trillion; 10 million beneficiary families",
+      "institution": "Kemensos (Indonesia)",
+      "url": "https://economy.okezone.com/read/2024/12/31/320/3100266/bansos-pkh-dan-bpnt-2024-terealisasi-100-ini-daftar-penerimanya",
+      "topics": ["cct_international", "pkh"]
     }
   ]
 }

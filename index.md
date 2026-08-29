@@ -865,6 +865,17 @@ modelo latino-americano de verificação escolar/saúde.
 | **Portugal** | RSI (Rendimento Social de Inserção) | Benefício em dinheiro com contrato de integração social e profissional [53] |
 | **Coreia do Sul** | National Basic Livelihood Security Scheme | Rede de proteção mínima com elegibilidade e recursos definidos em lei [51] |
 | **Alemanha** | Bürgergeld | Renda mínima com incentivo à atividade; verificações de disponibilidade para trabalho [51] |
+| **Austrália** | Family Tax Benefit (FTB) | Principal benefício familiar em dinheiro; teste de renda por família com crianças; sem verificação escolar/saúde no modelo CCT latino-americano [54][55] |
+
+### Gasto anual e cobertura (comparativo visual)
+
+![Gasto anual e cobertura de programas selecionados](assets/charts/08_international_programs.png)
+
+Cinco programas com dados públicos comparáveis em **dólares americanos** (gasto
+anual) e **pessoas beneficiadas** (estimadas quando a fonte publica famílias ou
+domicílios). Países ordenados da **menor** para a **maior** cobertura em
+pessoas. Conversões cambiais e premissas de pessoas estão no rodapé do gráfico
+e nas fontes [1][50][54][56][57].
 
 ### Benchmark em cinco dimensões
 
@@ -966,9 +977,10 @@ brasileiro sobre transferência de renda não é exclusivo do Brasil.
 9. **Auxílio Brasil × Bolsa Família:** comparativo legal entre desenhos de
    2021–2023 e 2023 em diante; custos e gráficos de 2024 refletem o programa
    vigente naquele ano, não o nome do cartão em anos anteriores [46].
-10. **Comparativo internacional:** tabela em cinco dimensões usa ordens de
-    grandeza, moedas e critérios de focalização distintos; gastos em PHP, COP,
-    EUR e R$ não são somáveis diretamente [47][49][50].
+10. **Comparativo internacional:** tabela em cinco dimensões e gráfico de gasto
+    versus pessoas usam ordens de grandeza, moedas e critérios de focalização
+    distintos; gastos em PHP, COP, EUR, AUD e R$ não são somáveis diretamente
+    [47][49][50][54][56][57].
 11. **Gráfico da seção 8:** MEI e empresários vêm de CNPJ ativos; CLT,
     informais e Bolsa Família são recortes de pessoas em fontes diferentes; o
     gráfico compara magnitudes, não fatias exclusivas de uma mesma população
@@ -1021,7 +1033,7 @@ opinião política.
 Lista completa do que alimenta esta Pesquisa. Cada número nas seções aponta
 para o ID `[N]`.
 
-**Cobertura:** IDs **[1]–[30]** e **[44]–[53]** alimentam dados, leis e estudos nas seções 1–12. IDs **[31]–[43]** documentam opiniões viralizadas citadas nos blocos “Opiniões e Fatos” (subseção Circulação).
+**Cobertura:** IDs **[1]–[30]** e **[44]–[57]** alimentam dados, leis e estudos nas seções 1–12. IDs **[31]–[43]** documentam opiniões viralizadas citadas nos blocos “Opiniões e Fatos” (subseção Circulação).
 
 ### Dados e estudos
 
@@ -1068,6 +1080,10 @@ para o ID `[N]`.
 | [51] | Conditional cash transfers — revisão comparativa (América Latina e Ásia)       | World Bank / literatura       | [Abrir](https://documents1.worldbank.org/curated/en/099816304042510848/pdf/IDU-89fa95d7-3cf8-4cc2-8d6c-989ca434a96a.pdf)                                                                                                  |
 | [52] | Temporary Assistance for Needy Families (TANF) — visão geral                   | U.S. HHS / OFA                | [Abrir](https://www.acf.hhs.gov/ofa/programs/tanf/about)                                                                                                                                                                  |
 | [53] | Rendimento Social de Inserção (RSI) — regras e elegibilidade                 | Segurança Social (UE/Portugal) | [Abrir](https://ec.europa.eu/social/main.jsp?catId=1125&langId=en&intPageId=4742)                                                                                                                                         |
+| [54] | Monetary transfers to households — Family tax benefits 2023-24 (AUD 14,9 bi) | ABS (Austrália)               | [Abrir](https://www.abs.gov.au/articles/insights-government-finance-statistics-june-2024)                                                                                                                                 |
+| [55] | Family Tax Benefit — crianças apoiadas e beneficiários (2025)                | Tax Expenditures Lab / DSS      | [Abrir](https://www.taxexpenditures.org/2025/08/19/many-parents-mostly-mothers-lose-family-payments-from-the-first-dollar-they-earn/)                                                                                    |
+| [56] | Orçamento 4Ps 2024 — PHP 112,8 bi para 4,4 mi domicílios-alvo                 | PNA / DSWD (Filipinas)          | [Abrir](https://www.pna.gov.ph/articles/1219723)                                                                                                                                                                          |
+| [57] | PKH 2024 — Rp 28,71 tri; 10 mi famílias beneficiárias                          | Kemensos (Indonésia)            | [Abrir](https://economy.okezone.com/read/2024/12/31/320/3100266/bansos-pkh-dan-bpnt-2024-terealisasi-100-ini-daftar-penerimanya)                                                                                          |
 
 
 
@@ -1075,7 +1091,7 @@ para o ID `[N]`.
 ### Circulação das opiniões citadas
 
 Estas fontes documentam **o que foi dito e compartilhado**, não a veracidade
-da opinião. Mapeiam declarações citadas nas seções 2–8 (juros, renúncias, emendas, previdência militar, trabalho, escolaridade e redes). As fontes **[44]–[53]** referem-se a dados comparativos e internacionais (seções 8–10), não a opiniões.
+da opinião. Mapeiam declarações citadas nas seções 2–8 (juros, renúncias, emendas, previdência militar, trabalho, escolaridade e redes). As fontes **[44]–[57]** referem-se a dados comparativos e internacionais (seções 8–10), não a opiniões.
 
 
 | ID   | Título                                                        | Tipo                             | Link                                                                                                                                                       |

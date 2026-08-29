@@ -452,6 +452,128 @@ def chart_populacao(m: dict[str, float]) -> None:
     save(fig, "07_populacao_trabalho_bf.png", tight=False)
 
 
+def load_international_programs() -> pd.DataFrame:
+    path = ROOT / "data" / "international_programs_2024.csv"
+    df = pd.read_csv(path)
+    df["people_mi"] = df["people"] / 1e6
+    df["spending_usd_bi"] = df["spending_usd"] / 1e9
+    return df.sort_values("people").reset_index(drop=True)
+
+
+def chart_international_programs() -> None:
+    df = load_international_programs()
+    labels = [f"{row.country}\n({row.program})" for row in df.itertuples()]
+    spending = df["spending_usd_bi"].to_numpy()
+    people = df["people_mi"].to_numpy()
+
+    x = np.arange(len(labels))
+    bar_width = 0.36
+    spend_color = TEAL
+    people_color = AMBER
+
+    fig, ax_spend = plt.subplots(figsize=(11.5, 6.4))
+    ax_people = ax_spend.twinx()
+
+    spend_bars = ax_spend.bar(
+        x - bar_width / 2,
+        spending,
+        bar_width,
+        color=spend_color,
+        label="Gasto anual (US$ bi)",
+        zorder=3,
+    )
+    people_bars = ax_people.bar(
+        x + bar_width / 2,
+        people,
+        bar_width,
+        color=people_color,
+        label="Pessoas beneficiadas (mi)",
+        zorder=2,
+        alpha=0.92,
+    )
+
+    style_axes(ax_spend)
+    ax_spend.spines["right"].set_visible(True)
+    ax_spend.spines["right"].set_color("#CBD5E1")
+    ax_people.spines["right"].set_color(people_color)
+    ax_people.tick_params(axis="y", colors=people_color, labelsize=10)
+    ax_spend.tick_params(axis="y", colors=spend_color, labelsize=10)
+
+    ax_spend.set_ylabel("Gasto anual (US$ bilhões)", fontsize=11, color=spend_color)
+    ax_people.set_ylabel("Pessoas beneficiadas (milhões)", fontsize=11, color=people_color)
+    ax_spend.set_xticks(x)
+    ax_spend.set_xticklabels(labels, fontsize=8.5)
+    ax_spend.set_title(
+        "Gasto anual e cobertura — programas selecionados (2024)",
+        fontsize=13,
+        fontweight="bold",
+        color=TEXT,
+        pad=12,
+    )
+    ax_spend.grid(axis="y", color="#E2E8F0", linewidth=0.8, zorder=0)
+    ax_spend.set_axisbelow(True)
+
+    for bar, val in zip(spend_bars, spending):
+        ax_spend.text(
+            bar.get_x() + bar.get_width() / 2,
+            bar.get_height() + 0.4,
+            f"{val:.1f}",
+            ha="center",
+            fontsize=8.5,
+            fontweight="bold",
+            color=spend_color,
+        )
+    for bar, val in zip(people_bars, people):
+        ax_people.text(
+            bar.get_x() + bar.get_width() / 2,
+            bar.get_height() + 0.8,
+            f"{val:.1f}",
+            ha="center",
+            fontsize=8.5,
+            fontweight="bold",
+            color=people_color,
+        )
+
+    ymax_spend = max(spending) * 1.18
+    ymax_people = max(people) * 1.15
+    ax_spend.set_ylim(0, ymax_spend)
+    ax_people.set_ylim(0, ymax_people)
+
+    handles = [
+        plt.Rectangle((0, 0), 1, 1, color=spend_color),
+        plt.Rectangle((0, 0), 1, 1, color=people_color),
+    ]
+    ax_spend.legend(
+        handles,
+        ["Gasto anual (US$ bi)", "Pessoas beneficiadas (mi)"],
+        loc="upper left",
+        frameon=False,
+        fontsize=9,
+    )
+
+    footnotes = [
+        "Gastos convertidos para US$ com câmbio médio de referência 2024 (BRL 5,2; EUR 1,08; "
+        "AUD 0,65; PHP 56; IDR 15 500 por US$).",
+        "Pessoas: estimativas quando a fonte publica domicílios/famílias (ver notas em "
+        "[1][50][54][56][57]). Países ordenados por pessoas, da menor para a maior.",
+    ]
+    for idx, line in enumerate(footnotes):
+        ax_spend.text(
+            0.0,
+            -0.14 - idx * 0.07,
+            line,
+            transform=ax_spend.transAxes,
+            fontsize=7.8,
+            color=SLATE,
+            ha="left",
+            va="top",
+            clip_on=False,
+        )
+
+    fig.subplots_adjust(left=0.08, right=0.92, bottom=0.22, top=0.90)
+    save(fig, "08_international_programs.png", tight=False)
+
+
 def main() -> None:
     m = load_metrics()
     chart_comparativo(m)
@@ -461,6 +583,7 @@ def main() -> None:
     chart_saida_escolaridade(m)
     chart_efeito_trabalho(m)
     chart_populacao(m)
+    chart_international_programs()
     print("done")
 
 
