@@ -377,7 +377,6 @@ def chart_populacao(m: dict[str, float]) -> None:
     bar_width = 0.46
     x_label_font_size = 7.2
     footnote_font_size = 9.1
-    footnote_line_step = 0.042
 
     labels = [
         "Trabalhadores\nCLT\n(PNAD privado)",
@@ -427,7 +426,6 @@ def chart_populacao(m: dict[str, float]) -> None:
             color=TEXT,
         )
     ax.set_ylim(0, max(values) * 1.22)
-    fig.subplots_adjust(left=0.08, right=0.98, bottom=0.42, top=0.90)
     footnotes = [
         "* Informais PNAD (40,3 mi) + intermitentes RAIS (~0,47 mi; celetistas atípicos).",
         "** Empresas ativas menos MEI (Mapa de Empresas).",
@@ -436,15 +434,21 @@ def chart_populacao(m: dict[str, float]) -> None:
         "desocupados em idade ativa = residual; crianças (0–13 anos) e idosos (65+) ≈ "
         "50% do total. Conjuntos se cruzam.",
     ]
+    footnote_y_start = -0.22
+    footnote_line_step = 0.036
     for idx, line in enumerate(footnotes):
-        fig.text(
-            0.08,
-            0.048 - idx * footnote_line_step,
+        ax.text(
+            0.0,
+            footnote_y_start - idx * footnote_line_step,
             line,
+            transform=ax.transAxes,
             fontsize=footnote_font_size,
             color=SLATE,
             ha="left",
+            va="top",
+            clip_on=False,
         )
+    fig.subplots_adjust(left=0.08, right=0.98, bottom=0.21, top=0.90)
     save(fig, "07_populacao_trabalho_bf.png", tight=False)
 
 

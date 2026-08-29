@@ -754,56 +754,7 @@ família consegue um emprego [22].
 
 
 
-## 9. Limitações desta Pesquisa
-
-1. **Juros (Banco Central consolidado):** escopo maior que o do Bolsa Família
-   (só União); inclui estados, municípios e swaps.
-2. **DIRBI:** série federal a partir de 2024; não inclui ICMS estadual.
-3. **Emendas:** usamos valor **empenhado**; pago foi menor (R$ 31,4 bi).
-4. **Pensões de filhas / morte ficta:** melhores números públicos são 2020
-   (CGU) e LAI 2023–2024 — não um painel mensal único.
-5. **Seções 6–7:** estudos longitudinais (2014–2025 e 2022–2023), não só o
-   ano fiscal 2024.
-6. **Idade ativa e ocupação no Bolsa Família:** estimativas (50% idade ativa;
-   46,8% ocupados nos domicílios). Para precisão municipal use o CECAD [30].
-7. **Informais + intermitentes / MEI / empresários:** fontes e unidades
-   diferentes (PNAD pessoas, RAIS vínculos, Mapa de Empresas CNPJ). Não somar
-   as barras como se fossem exclusivas.
-8. **Opiniões citadas:** selecionadas pela circulação pública. Viralização
-   **não** mede verdade.
-
----
-
-
-
-## 10. Síntese dos achados
-
-Os pontos abaixo resumem o que os **números desta Pesquisa** mostram. Não são
-opinião política.
-
-1. Em 2024 o Bolsa Família custou **R$ 168,3 bi**: valor alto em termos
-   absolutos, inferior aos juros do setor público consolidado
-   (**R$ 950,4 bi**) e às renúncias fiscais federais (**R$ 331,6 bi**).
-2. Por pessoa, o sistema de previdência militar custa **dezenas de vezes
-   mais** que o Bolsa Família; no total, o Bolsa Família custa mais porque
-   atende muito mais gente.
-3. **1 ponto percentual** da Selic (~R$ 55 bi) se aproxima de um terço do
-   custo anual do Bolsa Família.
-4. Na coorte FGV/MDS, **60,68%** de quem estava no programa em 2014 já havia
-   saído em 2025; escolaridade e emprego com carteira na família elevam a
-   taxa de saída.
-5. Sobre trabalho: o IPEA encontra efeito **pequeno** na participação (2–5
-   p.p.); a FGV IBRE encontra efeito **maior** na formalidade de alguns
-   grupos. “Comodismo em massa” e “efeito zero” **ambas** simplificam o
-   intervalo. Na escala de 2024, a maior parte das pessoas em idade ativa
-   em lares do programa aparece como **ocupada** na estimativa desta
-   Pesquisa.
-
----
-
-
-
-## 11. O que foi o Auxílio Brasil — e o que mudou no Bolsa Família
+## 9. O que foi o Auxílio Brasil — e o que mudou no Bolsa Família
 
 Entre **dezembro de 2021** e **março de 2023**, o principal programa federal
 de transferência de renda às famílias pobres chamou-se **Auxílio Brasil**
@@ -891,7 +842,7 @@ o **valor da transferência**, não sobre o nome do cartão.
 
 
 
-## 12. Programas parecidos em outros países
+## 10. Programas parecidos em outros países
 
 Transferência de renda a famílias pobres **com condições** (escola, saúde) —
 em inglês, *conditional cash transfers* (CCT) — não é ideia só brasileira.
@@ -995,10 +946,82 @@ brasileiro sobre transferência de renda não é exclusivo do Brasil.
 
 
 
+## 11. Limitações desta Pesquisa
+
+1. **Juros (Banco Central consolidado):** escopo maior que o do Bolsa Família
+   (só União); inclui estados, municípios e swaps.
+2. **DIRBI:** série federal a partir de 2024; não inclui ICMS estadual.
+3. **Emendas:** usamos valor **empenhado**; pago foi menor (R$ 31,4 bi).
+4. **Pensões de filhas / morte ficta:** melhores números públicos são 2020
+   (CGU) e LAI 2023–2024 — não um painel mensal único.
+5. **Seções 6–7:** estudos longitudinais (2014–2025 e 2022–2023), não só o
+   ano fiscal 2024.
+6. **Idade ativa e ocupação no Bolsa Família:** estimativas (50% idade ativa;
+   46,8% ocupados nos domicílios). Para precisão municipal use o CECAD [30].
+7. **Informais + intermitentes / MEI / empresários:** fontes e unidades
+   diferentes (PNAD pessoas, RAIS vínculos, Mapa de Empresas CNPJ). Não somar
+   as barras como se fossem exclusivas.
+8. **Opiniões citadas:** selecionadas pela circulação pública. Viralização
+   **não** mede verdade.
+9. **Auxílio Brasil × Bolsa Família:** comparativo legal entre desenhos de
+   2021–2023 e 2023 em diante; custos e gráficos de 2024 refletem o programa
+   vigente naquele ano, não o nome do cartão em anos anteriores [46].
+10. **Comparativo internacional:** tabela em cinco dimensões usa ordens de
+    grandeza, moedas e critérios de focalização distintos; gastos em PHP, COP,
+    EUR e R$ não são somáveis diretamente [47][49][50].
+11. **Gráfico da seção 8:** MEI e empresários vêm de CNPJ ativos; CLT,
+    informais e Bolsa Família são recortes de pessoas em fontes diferentes; o
+    gráfico compara magnitudes, não fatias exclusivas de uma mesma população
+    [19][20][21][44].
+
+---
+
+
+## 12. Síntese dos achados
+
+Os pontos abaixo resumem o que os **números desta Pesquisa** mostram. Não são
+opinião política.
+
+1. Em 2024 o Bolsa Família custou **R$ 168,3 bi**: valor alto em termos
+   absolutos, inferior aos juros do setor público consolidado
+   (**R$ 950,4 bi**) e às renúncias fiscais federais (**R$ 331,6 bi**).
+2. Por pessoa, o sistema de previdência militar custa **dezenas de vezes
+   mais** que o Bolsa Família; no total, o Bolsa Família custa mais porque
+   atende muito mais gente.
+3. **1 ponto percentual** da Selic (~R$ 55 bi) se aproxima de um terço do
+   custo anual do Bolsa Família.
+4. Na coorte FGV/MDS, **60,68%** de quem estava no programa em 2014 já havia
+   saído em 2025; escolaridade e emprego com carteira na família elevam a
+   taxa de saída.
+5. Sobre trabalho: o IPEA encontra efeito **pequeno** na participação (2–5
+   p.p.); a FGV IBRE encontra efeito **maior** na formalidade de alguns
+   grupos. “Comodismo em massa” e “efeito zero” **ambas** simplificam o
+   intervalo. Na escala de 2024, a maior parte das pessoas em idade ativa
+   em lares do programa aparece como **ocupada** na estimativa desta
+   Pesquisa.
+6. O programa passou pelo **Auxílio Brasil** (2021–2023) antes da retomada do
+   nome **Bolsa Família** pela Lei 14.601/2023, com piso de R$ 600,
+   condicionalidades de saúde/escola e Regra de Proteção para quem aumenta a
+   renda [46].
+7. No mercado de trabalho de 2024, há ordens de grandeza de **~38,7 mi** CLT
+   privados, **~40,8 mi** informais+intermitentes, **~11,7 mi** MEI e
+   **~10,3 mi** empresários ativos não-MEI — números de natureza distinta
+   das **~57 mi** pessoas em famílias do programa; muitas se cruzam na mesma
+   casa [19][20][21][27][44].
+8. Em perspectiva internacional, o Bolsa Família se destaca pela escala;
+   programas como **4Ps** (Filipinas) e **RSA** (França) ilustram modelos
+   comparáveis em documentação, mas com cobertura e condicionalidades
+   diferentes [47][49][50].
+
+---
+
+
 ## 13. Fontes
 
 Lista completa do que alimenta esta Pesquisa. Cada número nas seções aponta
 para o ID `[N]`.
+
+**Cobertura:** IDs **[1]–[30]** e **[44]–[53]** alimentam dados, leis e estudos nas seções 1–12. IDs **[31]–[43]** documentam opiniões viralizadas citadas nos blocos “Opiniões e Fatos” (subseção Circulação).
 
 ### Dados e estudos
 
@@ -1052,7 +1075,7 @@ para o ID `[N]`.
 ### Circulação das opiniões citadas
 
 Estas fontes documentam **o que foi dito e compartilhado**, não a veracidade
-da opinião.
+da opinião. Mapeiam declarações citadas nas seções 2–8 (juros, renúncias, emendas, previdência militar, trabalho, escolaridade e redes). As fontes **[44]–[53]** referem-se a dados comparativos e internacionais (seções 8–10), não a opiniões.
 
 
 | ID   | Título                                                        | Tipo                             | Link                                                                                                                                                       |
