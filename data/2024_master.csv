@@ -80,3 +80,14 @@ exit_bf_age_18_plus,63.46,percent,2025,22,FGV Fig.1 exit rate
 exit_bf_occ_conta_propria,65.54,percent,2025,22,FGV Fig.8
 exit_bf_occ_sem_carteira,57.51,percent,2025,22,FGV Fig.8
 exit_bf_occ_sem_remuneracao,52.35,percent,2025,22,FGV Fig.8
+mei_ativos,11700000,people,2024,44,"Mapa de Empresas ~11.7 mi MEI ativos (jan-set 2024)"
+empresas_ativas_total,22000000,firms,2024,44,"Mapa de Empresas >22 mi empresas em atividade"
+empresarios_nao_mei,10300000,firms_or_people,2024,44,"Proxy: empresas ativas total - MEI (~10.3 mi ME/EPP/S.A./EI)"
+rais_intermitentes,472071,vinculos,2024,21,"RAIS 2024 intermitentes (celetistas atípicos)"
+pnad_empregadores,4300000,people,2024,45,"PNAD 2024 empregadores"
+pnad_conta_propria,25500000,people,2024,45,"PNAD 2024 conta própria"
+informais_mais_intermitentes,40772071,people,2024,19,"PNAD informais 40.3 mi + RAIS intermitentes 0.47 mi (conjuntos distintos)"
+bf_working_age_est,28500000,people,2024,27,"50% of 57 mi people in BF families"
+bf_working_age_employed_est,26676000,people,2024,25,"46.8% occupied share × 57 mi (IPEA occupied in BF households)"
+bf_working_age_not_employed_est,1824000,people,2024,25,"Working-age residual: 28.5 - 26.676 mi (desocupados + fora da força)"
+bf_not_working_age_est,28500000,people,2024,27,"Complement to 50% working-age proxy"

@@ -56,7 +56,7 @@ def save(fig: plt.Figure, name: str) -> Path:
 
 def chart_comparativo(m: dict[str, float]) -> None:
     items = [
-        ("Juros da dívida\n(setor público, BC)", m["interest_consolidated_bc"], CORAL),
+        ("Juros da dívida\n(setor público, Banco Central)", m["interest_consolidated_bc"], CORAL),
         ("Renúncias fiscais\n(DIRBI total)", m["tax_expenditures_dirbi_total"], AMBER),
         ("Bolsa Família", m["bf_cost_annual"], TEAL),
         ("Emendas parlamentares\n(empenhado)", m["amendments_committed"], NAVY),
@@ -90,7 +90,7 @@ def chart_comparativo(m: dict[str, float]) -> None:
         )
     ax.set_xlim(0, max(values) * 1.18)
     ax.annotate(
-        "Juros = juros nominais apropriados do setor público consolidado (BC).\n"
+        "Juros = juros nominais apropriados do setor público consolidado (Banco Central).\n"
         "Inclui União, estados, municípios e efeito de swaps cambiais.",
         xy=(0.0, -0.18),
         xycoords="axes fraction",
@@ -142,7 +142,7 @@ def chart_custo_por_pessoa(m: dict[str, float]) -> None:
         )
     ax.set_ylim(0, max(values) * 1.25)
     ax.annotate(
-        f"BF: R$ {bf_cost/1e9:.1f} bi ÷ {bf_people/1e6:.0f} mi pessoas. "
+        f"Bolsa Família: R$ {bf_cost/1e9:.1f} bi ÷ {bf_people/1e6:.0f} mi pessoas. "
         f"Militar: R$ {mil_cost/1e9:.1f} bi ÷ ~{mil_people/1e3:.0f} mil inativos+pensionistas "
         "(estimativa).",
         xy=(0.0, -0.16),
@@ -286,7 +286,7 @@ def chart_saida_escolaridade(m: dict[str, float]) -> None:
     ax.set_xlabel("Taxa de saída do Bolsa Família (%)", fontsize=11)
     ax.set_xlim(0, 100)
     ax.set_title(
-        "Saída do BF × escolaridade da pessoa de referência (2014→2025)",
+        "Saída do Bolsa Família × escolaridade da pessoa de referência (2014→2025)",
         fontsize=13,
         fontweight="bold",
         color=TEXT,
@@ -317,8 +317,8 @@ def chart_saida_escolaridade(m: dict[str, float]) -> None:
 def chart_efeito_trabalho(m: dict[str, float]) -> None:
     labels = [
         "IPEA NT78\n(piso R$400→R$600)\nredução na força\nde trabalho",
-        "FGV IBRE\n(BF ampliado)\nefeito sobre\nformalidade*",
-        "Ocupados em\ndomicílios BF\n2019 → 2023",
+        "FGV IBRE\n(Bolsa Família ampliado)\nefeito sobre\nformalidade*",
+        "Ocupados em\ndomicílios Bolsa Família\n2019 → 2023",
     ]
     # For FGV, use ~13% reduction in formal employment probability among newly eligible
     # as midpoint narrative figure from the blog; show as 13 pp-equivalent on secondary note
@@ -347,7 +347,7 @@ def chart_efeito_trabalho(m: dict[str, float]) -> None:
     ax.set_xticklabels(labels, fontsize=9)
     ax.set_ylabel("Efeito (p.p. ou %)", fontsize=11)
     ax.set_title(
-        "Efeitos estimados do BF sobre oferta de trabalho — evidência mista",
+        "Efeitos estimados do Bolsa Família sobre oferta de trabalho — evidência mista",
         fontsize=13,
         fontweight="bold",
         color=TEXT,
@@ -373,34 +373,32 @@ def chart_efeito_trabalho(m: dict[str, float]) -> None:
 
 def chart_populacao(m: dict[str, float]) -> None:
     labels = [
-        "CLT privado\n(PNAD)",
-        "Sem carteira\nprivado (PNAD)",
-        "Informais\ntotal (PNAD)",
-        "Famílias BF",
-        "Pessoas em\nfamílias BF",
-        "Estimativa BF\nem idade ativa\n(18–59)*",
+        "CLT\n(PNAD privado)",
+        "Informais +\nintermitentes*",
+        "MEI\n(ativos)",
+        "Empresários\nativos\n(não-MEI)**",
+        "Bolsa Família\nidade ativa\nempregados***",
+        "Bolsa Família\nidade ativa\nnão ocupados***",
+        "Bolsa Família\nsem idade\nativa***",
     ]
-    # Age-active estimate: use ~50% of BF people as working-age proxy
-    # (CadÚnico age structure typically ~45-55% adults 18-59 in BF households)
-    bf_people = m["bf_people_jan"]
-    bf_working_age = bf_people * 0.50
     values = [
         m["pnad_clt_privado"] / 1e6,
-        m["pnad_sem_carteira_privado"] / 1e6,
-        m["pnad_informais"] / 1e6,
-        m["bf_families_avg"] / 1e6,
-        bf_people / 1e6,
-        bf_working_age / 1e6,
+        m["informais_mais_intermitentes"] / 1e6,
+        m["mei_ativos"] / 1e6,
+        m["empresarios_nao_mei"] / 1e6,
+        m["bf_working_age_employed_est"] / 1e6,
+        m["bf_working_age_not_employed_est"] / 1e6,
+        m["bf_not_working_age_est"] / 1e6,
     ]
-    colors = [NAVY, SLATE, AMBER, TEAL, TEAL, "#0D9488"]
+    colors = [NAVY, AMBER, "#7C3AED", SLATE, TEAL, CORAL, "#0D9488"]
 
-    fig, ax = plt.subplots(figsize=(12, 6))
-    bars = ax.bar(labels, values, color=colors, width=0.65)
+    fig, ax = plt.subplots(figsize=(13.5, 6.4))
+    bars = ax.bar(labels, values, color=colors, width=0.68)
     style_axes(ax)
     ax.grid(axis="y", color="#E2E8F0", linewidth=0.8)
     ax.set_ylabel("Milhões", fontsize=11)
     ax.set_title(
-        "Escala comparada: mercado de trabalho × Bolsa Família (2024)",
+        "Mercado de trabalho × pessoas no Bolsa Família (2024)",
         fontsize=13,
         fontweight="bold",
         color=TEXT,
@@ -409,20 +407,22 @@ def chart_populacao(m: dict[str, float]) -> None:
     for bar, val in zip(bars, values):
         ax.text(
             bar.get_x() + bar.get_width() / 2,
-            bar.get_height() + 0.8,
+            bar.get_height() + 0.7,
             f"{val:.1f} mi",
             ha="center",
-            fontsize=9.5,
+            fontsize=9,
             fontweight="bold",
             color=TEXT,
         )
-    ax.set_ylim(0, max(values) * 1.2)
+    ax.set_ylim(0, max(values) * 1.22)
     ax.annotate(
-        "*Estimativa: ~50% das pessoas em famílias BF têm 18–59 anos (proxy CadÚnico/IBGE). "
-        "BF e CLT não são conjuntos disjuntos — muitos beneficiários também trabalham.",
-        xy=(0.0, -0.18),
+        "*Informais PNAD (40,3 mi) + intermitentes RAIS (~0,47 mi; celetistas atípicos). "
+        "**Empresas ativas menos MEI (Mapa de Empresas). "
+        "***Estimativas: 50% em idade ativa; ocupados = 46,8% das pessoas em lares Bolsa Família "
+        "(IPEA). Conjuntos se cruzam.",
+        xy=(0.0, -0.22),
         xycoords="axes fraction",
-        fontsize=8.2,
+        fontsize=8.0,
         color=SLATE,
     )
     save(fig, "07_populacao_trabalho_bf.png")
