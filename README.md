@@ -53,6 +53,10 @@ Os PNGs são gravados em `assets/charts/`.
 
 Detalhes, limitações metodológicas e links oficiais estão na Pesquisa.
 
+## Repositório
+
+https://github.com/douglasjrosa/bolsa-familia-pesquisa
+
 ## Licença de uso dos dados
 
 Os números são de órgãos públicos brasileiros. Cite sempre a fonte original ao
