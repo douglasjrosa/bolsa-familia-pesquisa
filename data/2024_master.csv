@@ -1,0 +1,82 @@
+metric,value,unit,year,source_id,notes
+bf_cost_annual,168300000000,BRL,2024,1,MDS official transfer total for Bolsa Familia 2024
+bf_cost_annual_alt,169000000000,BRL,2024,2,TCU/MDS round figure cited as R$ 169 bi benefits
+bf_families_jan,21100000,families,2024,27,January 2024 national caseload
+bf_people_jan,57000000,people,2024,27,People in beneficiary families January 2024
+bf_families_dec,20800000,families,2024,2,December 2024 approx 20.8 million families
+bf_families_avg,20950000,families,2024,1,"Average of Jan/Dec 2024 caseload ~20.95 million"
+bf_avg_benefit_jan,685.61,BRL_per_family_month,2024,27,Average benefit January 2024
+bf_avg_household_size,2.71,people_per_family,2024,27,"57e6 people / 21.1e6 families"
+interest_consolidated_bc,950423000000,BRL,2024,5,"Nominal interest of consolidated public sector (BC) 8.05% of GDP"
+interest_pct_gdp,8.05,percent_of_GDP,2024,5,BC fiscal statistics
+amendments_committed,44814360915.47,BRL,2024,7,Portal Transparencia empenhado
+amendments_paid,31398154985.43,BRL,2024,7,Portal Transparencia pago
+military_expenses_system,61500000000,BRL,2024,11,"SPSMFA total expenses ~R$ 61.5 bi (TCU)"
+military_deficit,52300000000,BRL,2024,11,"SPSMFA deficit ~R$ 52.3 bi (TCU)"
+military_pensioners_2024,235416,people,2024,12,Ministry of Defense pensioners paid in 2024
+military_pensions_cost_2024,22800000000,BRL,2024,12,Pensions paid to military dependents 2024
+military_actives,355397,people,2023,8,Actuarial report position Dec 2023
+military_pension_trunks,135925,people,2023,8,Pensionistas tronco Dec 2023
+military_pension_beneficiaries,146977,people,2023,8,Pensionistas beneficiarios Dec 2023
+military_special_pensions,17313,people,2022,9,Pensões especiais (actuarial Vol II)
+military_amnesty_repairs,4643,people,2022,9,Reparações a anistiados
+morte_ficta_exercito_militares,238,people,2024,13,Militares expulsos (morte ficta) Exército
+morte_ficta_exercito_pensionistas,310,people,2024,13,Familiares pensionistas Exército
+morte_ficta_exercito_cost_year,20000000,BRL,2024,13,~R$ 20 mi/year Exército
+morte_ficta_marinha_fab_pensionistas,493,people,2023,14,Marinha + Aeronáutica pensionistas morte ficta
+military_daughters_pensioners,137916,people,2020,15,"Filhas among 226k pensioners (CGU 2020)"
+military_pensioners_cgu_total,226000,people,2020,15,Total military pensioners in CGU extract
+tax_expenditures_dirbi_total,331600000000,BRL,2024,16,"RFB DIRBI declared for closed year 2024"
+tax_expenditures_spe_approx,339860000000,BRL,2024,17,"SPE panel characterization ~R$ 340 bi"
+tax_industry_transformacao,166500000000,BRL,2024,18,SPE guide CNAE manufacturing
+tax_comercio,83140000000,BRL,2024,18,SPE guide commerce
+tax_admin_services,19280000000,BRL,2024,18,SPE guide administrative activities
+tax_pct_industry,48.15,percent,2024,16,Share of DIRBI manufacturing
+tax_pct_comercio,24.92,percent,2024,16,Share of DIRBI commerce
+tax_pct_admin,5.62,percent,2024,16,Share of DIRBI admin services
+tax_programa_zfm,54730000000,BRL,2024,16,Zona Franca de Manaus
+tax_programa_carnes,27260000000,BRL,2024,16,Carnes
+tax_programa_adubos,26260000000,BRL,2024,16,Adubos e Fertilizantes
+tax_programa_sudam,25630000000,BRL,2024,16,SUDAM/SUDENE
+tax_programa_defensivos,22410000000,BRL,2024,16,Defensivos Agropecuários
+rais_total_vinculos,57132156,vinculos,2024,21,RAIS stock end-2024
+rais_servicos,33283281,vinculos,2024,21,RAIS services group
+rais_comercio,10314045,vinculos,2024,21,RAIS commerce
+rais_industria_geral,8863837,vinculos,2024,21,RAIS general industry
+rais_industria_transformacao,8026257,vinculos,2024,21,RAIS manufacturing
+rais_construcao,2884807,vinculos,2024,21,"RAIS construction (derived from +80_242 on 2023)"
+rais_agropecuaria,1782941,vinculos,2024,21,RAIS agriculture forestry fishing
+pnad_clt_privado,38700000,people,2024,20,Annual average private employees with carteira
+pnad_sem_carteira_privado,14200000,people,2024,20,Annual average private employees without carteira
+pnad_informais,40300000,people,2024,19,Annual average informal workers
+pnad_informalidade_taxa,39.0,percent,2024,20,Informality rate of occupied population
+pnad_desocupacao_anual,6.6,percent,2024,20,Annual unemployment rate
+pnad_ocupados_approx,103300000,people,2024,19,"Approx occupied = informals / 0.39"
+exit_bf_2014_2025,60.68,percent,2025,22,Share of 2014 beneficiaries who left by 2025
+exit_bf_age_11_14,68.8,percent,2025,22,Exit rate ages 11-14 in 2014
+exit_bf_age_15_17,71.25,percent,2025,22,Exit rate ages 15-17 in 2014
+exit_bf_ref_clt,79.4,percent,2025,22,Exit when reference person had CLT in 2014
+exit_bf_monthly_out,447000,families_per_month,2025,22,"Avg monthly exits 2023-2025 (FGV)"
+exit_bf_monthly_in,359000,families_per_month,2025,22,"Avg monthly entries 2023-2025 (FGV)"
+exit_bf_cohort_2023_2025,31.25,percent,2025,22,Exit of early-2023 beneficiaries by Oct 2025
+ipea_labor_force_effect_low,2.2,percentage_points,2026,23,IPEA NT78 lower bound LFP reduction
+ipea_labor_force_effect_high,4.7,percentage_points,2026,23,IPEA NT78 upper bound LFP reduction
+ipea_occupied_share_bf_2019,46.3,percent,2019,25,Occupied share in BF households 2019
+ipea_occupied_share_bf_2023,46.8,percent,2023,25,Occupied share in BF households 2023
+selic_1pp_cost,55000000000,BRL_per_year,2024,26,"Approx annual cost of 1 p.p. Selic (BC estimate)"
+selic_debt_share_floating,54.2,percent,2026,29,"Share of gross debt indexed to Selic (illustrative recent)"
+bf_domicilios_share,17.2,percent,2025,28,Share of Brazilian households receiving BF (IBGE)
+bf_renda_per_capita,774,BRL_month,2025,28,Avg household per capita income of BF households
+non_bf_renda_per_capita,2682,BRL_month,2025,28,Avg household per capita income of non-BF households
+bf_avg_household_size_ibge,3.4,people,2025,28,Avg household size among BF recipients (IBGE)
+exit_bf_edu_menos_fundamental,57.59,percent,2025,22,FGV Fig.9 exit rate
+exit_bf_edu_fund_incompleto,62.04,percent,2025,22,FGV Fig.9 exit rate
+exit_bf_edu_fund_completo,65.31,percent,2025,22,FGV Fig.9 exit rate
+exit_bf_edu_medio_incompleto,66.03,percent,2025,22,FGV Fig.9 exit rate
+exit_bf_edu_medio_mais,69.94,percent,2025,22,FGV Fig.9 exit rate
+exit_bf_age_0_5,41.26,percent,2025,22,FGV Fig.1 exit rate
+exit_bf_age_6_10,55.19,percent,2025,22,FGV Fig.1 exit rate
+exit_bf_age_18_plus,63.46,percent,2025,22,FGV Fig.1 exit rate
+exit_bf_occ_conta_propria,65.54,percent,2025,22,FGV Fig.8
+exit_bf_occ_sem_carteira,57.51,percent,2025,22,FGV Fig.8
+exit_bf_occ_sem_remuneracao,52.35,percent,2025,22,FGV Fig.8

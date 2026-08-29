@@ -1,0 +1,216 @@
+{
+  "access_date": "2026-08-29",
+  "base_year": 2024,
+  "sources": [
+    {
+      "id": 1,
+      "title": "Governo federal repassa R$ 168,3 bilhões pelo Bolsa Família em 2024",
+      "institution": "MDS",
+      "url": "https://www.gov.br/mds/pt-br/noticias-e-conteudos/desenvolvimento-social/noticias-desenvolvimento-social/governo-federal-repassa-r-168-3-bilhoes-pelo-bolsa-familia-em-2024",
+      "topics": ["bf_cost"]
+    },
+    {
+      "id": 2,
+      "title": "Gestão do Bolsa Família pelo MDS atinge 100% das metas em 2024 (TCU)",
+      "institution": "MDS / TCU",
+      "url": "https://www.gov.br/mds/pt-br/noticias-e-conteudos/desenvolvimento-social/noticias-desenvolvimento-social/gestao-do-bolsa-familia-pelo-mds-atinge-100-das-metas-em-2024-aponta-tcu",
+      "topics": ["bf_cost", "bf_families"]
+    },
+    {
+      "id": 3,
+      "title": "Painel Dados Abertos da Matriz de Informações Sociais (SAGI)",
+      "institution": "MDS / SAGI",
+      "url": "https://aplicacoes.mds.gov.br/sagi-paineis/analise_dados_abertos/",
+      "topics": ["bf_families", "bf_series"]
+    },
+    {
+      "id": 4,
+      "title": "VIS DATA — Bolsa Família (quantidade de famílias e valores)",
+      "institution": "MDS",
+      "url": "https://aplicacoes.mds.gov.br/sagi/vis/data/index.php?view=Bolsa%20Fam%C3%ADlia",
+      "topics": ["bf_families", "bf_series"]
+    },
+    {
+      "id": 5,
+      "title": "Juros nominais do setor público consolidado em 2024 — R$ 950,4 bilhões (8,05% do PIB)",
+      "institution": "Banco Central do Brasil",
+      "url": "https://jornaldebrasilia.com.br/noticias/economia/gasto-com-juros-do-setor-publico-em-2024-e-o-maior-da-serie-historica-do-bc/",
+      "topics": ["interest"]
+    },
+    {
+      "id": 6,
+      "title": "Atualização da decomposição de juros nominais líquidos pagos no Brasil (2002–2024)",
+      "institution": "FGV IBRE — Observatório de Política Fiscal",
+      "url": "https://observatorio-politica-fiscal.ibre.fgv.br/politica-economica/pesquisa-academica/atualizacao-da-decomposicao-de-juros-nominais-liquidos-pagos",
+      "topics": ["interest", "selic"]
+    },
+    {
+      "id": 7,
+      "title": "Emendas Parlamentares — Ano 2024 (empenhado e pago)",
+      "institution": "Portal da Transparência / CGU",
+      "url": "https://portaldatransparencia.gov.br/emendas?ano=2024",
+      "topics": ["amendments"]
+    },
+    {
+      "id": 8,
+      "title": "Avaliação atuarial do Sistema de Pensões Militares das Forças Armadas — Volume I (PLDO 2025)",
+      "institution": "Ministério do Planejamento / Ministério da Defesa",
+      "url": "https://www.gov.br/planejamento/pt-br/assuntos/orcamento/orcamentos-anuais/2025/pldo/4-11-1-pldo2025-anexoiv-11-avaliacaoatuarialdosistemadepensoesmilitaresdasforcasarmadas-vol1.pdf",
+      "topics": ["military_pension"]
+    },
+    {
+      "id": 9,
+      "title": "Avaliação atuarial das pensões especiais e reparações a anistiados — Volume II (PLDO 2024)",
+      "institution": "Ministério do Planejamento / Ministério da Defesa",
+      "url": "https://www.gov.br/planejamento/pt-br/assuntos/orcamento/orcamentos-anuais/2024/pldo/13_pldo2024___anexo_iv_07___avaliacao_atuarial_do_sistema_de_pensoes_militares_das_forcas_armadas___volume_ii.pdf",
+      "topics": ["military_special"]
+    },
+    {
+      "id": 10,
+      "title": "Contas do Governo — SPSMFA (déficit e cobertura do sistema militar)",
+      "institution": "Tribunal de Contas da União (TCU)",
+      "url": "https://sites.tcu.gov.br/contas-do-governo-2023/ficha-01.html",
+      "topics": ["military_pension"]
+    },
+    {
+      "id": 11,
+      "title": "Previdência das Forças Armadas — despesas ~R$ 61,5 bi e déficit R$ 52,3 bi (2024)",
+      "institution": "TCU (via Gazeta do Povo)",
+      "url": "https://www.gazetadopovo.com.br/economia/forcas-armadas-nova-reforma-da-previdencia/",
+      "topics": ["military_pension"]
+    },
+    {
+      "id": 12,
+      "title": "Pensão militar: 235.416 pensionistas e R$ 22,8 bi em 2024",
+      "institution": "Ministério da Defesa (via UOL)",
+      "url": "https://noticias.uol.com.br/politica/ultimas-noticias/2024/12/11/pensoes-militares-rombo-previdencia.htm",
+      "topics": ["military_pension"]
+    },
+    {
+      "id": 13,
+      "title": "Exército gasta R$ 20 mi/ano com pensão de 238 mortos fictícios (310 familiares)",
+      "institution": "Fiquem Sabendo / Folha (LAI)",
+      "url": "https://www1.folha.uol.com.br/mercado/2024/06/exercito-gasta-r-20-milhoes-por-ano-com-pensao-de-238-mortos-ficticios.shtml",
+      "topics": ["morte_ficta"]
+    },
+    {
+      "id": 14,
+      "title": "Marinha e Aeronáutica pagam pensão a 493 parentes de mortos fictícios",
+      "institution": "Fiquem Sabendo / Estadão (LAI)",
+      "url": "https://exame.com/brasil/marinha-e-aeronautica-pagam-pensao-para-493-parentes-de-mortos-ficticios/",
+      "topics": ["morte_ficta"]
+    },
+    {
+      "id": 15,
+      "title": "CGU: 137.916 filhas entre 226 mil pensionistas militares (2020)",
+      "institution": "CGU / Portal da Transparência (via Estadão)",
+      "url": "https://www.cut.org.br/noticias/filhas-de-militares-recebem-ate-r-117-mil-por-mes-de-pensao-revela-estudo-b16c",
+      "topics": ["military_daughters"]
+    },
+    {
+      "id": 16,
+      "title": "Caracterização e Análise das Desonerações Tributárias (DIRBI 2024)",
+      "institution": "Ministério da Fazenda / SPE",
+      "url": "https://www.gov.br/fazenda/pt-br/assuntos/politica-fiscal/atuacao-spe/plataforma-de-desoneracoes-tributarias/arquivos/relatorio.pdf",
+      "topics": ["tax_expenditures"]
+    },
+    {
+      "id": 17,
+      "title": "Painel de Caracterização das Desonerações Tributárias",
+      "institution": "Ministério da Fazenda / SPE",
+      "url": "https://www.gov.br/fazenda/pt-br/assuntos/politica-fiscal/atuacao-spe/plataforma-de-desoneracoes-tributarias/painel-de-desoneracoes",
+      "topics": ["tax_expenditures"]
+    },
+    {
+      "id": 18,
+      "title": "Guia de uso do Painel Analítico de Desonerações Tributárias (valores por setor 2024)",
+      "institution": "Ministério da Fazenda / SPE",
+      "url": "https://www.gov.br/fazenda/pt-br/assuntos/politica-fiscal/atuacao-spe/plataforma-de-desoneracoes-tributarias/arquivos/guia-de-usos-painel.pdf",
+      "topics": ["tax_expenditures"]
+    },
+    {
+      "id": 19,
+      "title": "PNAD Contínua — retrospectiva do mercado de trabalho 2012–2024",
+      "institution": "IBGE",
+      "url": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Principais_destaques_PNAD_continua/2012_2024/PNAD_continua_retrospectiva_2012_2024.pdf",
+      "topics": ["labor", "clt"]
+    },
+    {
+      "id": 20,
+      "title": "PNAD Contínua 2024: desocupação anual 6,6%; CLT privado 38,7 milhões",
+      "institution": "IBGE",
+      "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/42530-pnad-continua-em-2024-taxa-anual-de-desocupacao-foi-de-6-6-enquanto-taxa-de-subutilizacao-foi-de-16-2",
+      "topics": ["labor", "clt"]
+    },
+    {
+      "id": 21,
+      "title": "RAIS 2024 — Sumário Executivo (vínculos por grupamento CNAE)",
+      "institution": "Ministério do Trabalho e Emprego",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/rais/rais-2024/rais-2024-1/sumario-executivo_rais-2024-1.pdf",
+      "topics": ["rais", "employment_by_sector"]
+    },
+    {
+      "id": 22,
+      "title": "Filhos do Bolsa Família — análise da última década (apresentação MDS)",
+      "institution": "FGV / MDS",
+      "url": "https://projetos.fgv.br/sites/default/files/users/user6/apresentacao_mds_04.pdf",
+      "topics": ["emancipation", "education"]
+    },
+    {
+      "id": 23,
+      "title": "O efeito do aumento no valor das transferências de renda sobre a inserção no mercado de trabalho (Dinte NT 78)",
+      "institution": "IPEA",
+      "url": "https://repositorio.ipea.gov.br/server/api/core/bitstreams/c632de9e-3481-4794-89df-3d97a112b225/content",
+      "topics": ["labor_disincentive"]
+    },
+    {
+      "id": 24,
+      "title": "Bolsa-Família ampliado reduz oferta de trabalho, mas pode ser aperfeiçoado",
+      "institution": "FGV IBRE (Daniel Duque)",
+      "url": "https://blogdoibre.fgv.br/posts/bolsa-familia-ampliado-reduz-oferta-de-trabalho-mas-pode-ser-aperfeicoado",
+      "topics": ["labor_disincentive"]
+    },
+    {
+      "id": 25,
+      "title": "IPEA: Bolsa Família não reduz população ocupada, mas eleva preço mínimo do trabalho",
+      "institution": "IPEA (Marcos Hecksher)",
+      "url": "https://www.terra.com.br/economia/ipea-bolsa-familia-nao-reduz-populacao-ocupada-mas-eleva-preco-minimo-do-trabalho-dos-mais-pobres,87227d90558094c42124eac5dbe27a0097ehflks.html",
+      "topics": ["labor_disincentive"]
+    },
+    {
+      "id": 26,
+      "title": "A cada 1% de aumento na Selic, o gasto com a dívida pública cresce R$ 55 bilhões (BC)",
+      "institution": "Banco Central (citado por Auditoria Cidadã da Dívida)",
+      "url": "https://auditoriacidada.org.br/conteudo/a-cada-1-de-aumento-na-selic-o-gasto-com-a-divida-publica-cresce-r-55-bilhoes-segundo-o-banco-central/",
+      "topics": ["selic"]
+    },
+    {
+      "id": 27,
+      "title": "Bolsa Família chega a 21,1 milhões de famílias em janeiro/2024 (57 milhões de pessoas)",
+      "institution": "SECOM / MDS",
+      "url": "https://www.gov.br/secom/pt-br/assuntos/noticias-regionalizadas/novo-bolsa-familia/jan24/bolsa-familia-chega-a-194-7-mil-familias-do-distrito-federal-a-partir-desta-quinta-18-1",
+      "topics": ["bf_families", "bf_people"]
+    },
+    {
+      "id": 28,
+      "title": "PNAD Contínua: rendimento e programas sociais 2025 (referência BF 2024/2025)",
+      "institution": "IBGE (via G1)",
+      "url": "https://g1.globo.com/economia/noticia/2026/05/08/bolsa-familia-bpc-e-mais-familias-que-recebem-de-programas-sociais-tem-renda-per-capita-ate-70percent-menor-mostra-ibge.ghtml",
+      "topics": ["bf_profile"]
+    },
+    {
+      "id": 29,
+      "title": "Relatório Mensal da Dívida Pública Federal (RMD) — Tesouro Nacional",
+      "institution": "Tesouro Nacional",
+      "url": "https://www.gov.br/tesouronacional/pt-br/divida-publica-federal",
+      "topics": ["interest", "selic"]
+    },
+    {
+      "id": 30,
+      "title": "CECAD 2.0 — Cadastro Único (perfil etário e socioeconômico)",
+      "institution": "MDS",
+      "url": "https://cecad.cidadania.gov.br/",
+      "topics": ["bf_age", "cadunico"]
+    }
+  ]
+}
