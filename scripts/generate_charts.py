@@ -420,13 +420,14 @@ def chart_populacao(m: dict[str, float]) -> None:
             color=TEXT,
         )
     ax.set_ylim(0, max(values) * 1.22)
-    fig.subplots_adjust(left=0.08, right=0.98, bottom=0.34, top=0.90)
+    fig.subplots_adjust(left=0.08, right=0.98, bottom=0.36, top=0.90)
     footnotes = [
         "* Informais PNAD (40,3 mi) + intermitentes RAIS (~0,47 mi; celetistas atípicos).",
         "** Empresas ativas menos MEI (Mapa de Empresas).",
         "*** Estimativas Bolsa Família: trabalhadores ocupados = 46,8% das pessoas em "
-        "lares (IPEA); desocupados em idade ativa = residual; crianças (0–13 anos) e "
-        "idosos (65+) ≈ 50% do total. Conjuntos se cruzam.",
+        "lares (IPEA);",
+        "desocupados em idade ativa = residual; crianças (0–13 anos) e idosos (65+) ≈ "
+        "50% do total. Conjuntos se cruzam.",
     ]
     for idx, line in enumerate(footnotes):
         fig.text(0.08, 0.045 - idx * 0.038, line, fontsize=7.6, color=SLATE, ha="left")
