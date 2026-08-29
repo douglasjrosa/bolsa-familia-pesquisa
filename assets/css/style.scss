@@ -1,0 +1,39 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.main-content blockquote {
+  border-left: 4px solid #0969da;
+  background: #f6f8fa;
+  border-radius: 6px;
+  margin: 1.25rem 0;
+  padding: 0.9rem 1.1rem;
+}
+
+.main-content blockquote p {
+  margin-bottom: 0.65rem;
+}
+
+.main-content blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+.main-content img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1rem auto;
+}
+
+.main-content table {
+  display: block;
+  overflow-x: auto;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .main-content {
+    font-size: 16px;
+  }
+}

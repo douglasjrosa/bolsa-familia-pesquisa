@@ -9,6 +9,8 @@ sobre cada tema.
 O documento foi escrito para leitura independente (incluindo conversão a PDF).
 Não é guia de conversa nem apresentação. Não defende nem ataca o programa.
 
+**Site (GitHub Pages):** https://douglasjrosa.github.io/bolsa-familia-pesquisa/
+
 ## Documento principal
 
 Abra **[docs/bolsa-familia-pesquisa.md](docs/bolsa-familia-pesquisa.md)** —

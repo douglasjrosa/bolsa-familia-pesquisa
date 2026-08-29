@@ -1,0 +1,15 @@
+title: Bolsa Família em perspectiva
+description: Pesquisa comparativa 2024 com dados oficiais brasileiros
+lang: pt-BR
+theme: jekyll-theme-cayman
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+exclude:
+  - agent-tools/
+  - scripts/
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - docs/

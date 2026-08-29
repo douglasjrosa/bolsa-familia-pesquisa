@@ -1,3 +1,8 @@
+---
+title: Bolsa Família em perspectiva — Pesquisa comparativa 2024
+layout: default
+---
+
 # Bolsa Família em perspectiva — Pesquisa comparativa 2024
 
 **Ano-base:** 2024 (último exercício com série completa e comparável em todas as
