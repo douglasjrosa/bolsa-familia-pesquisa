@@ -5,8 +5,9 @@ layout: default
 
 # Bolsa Família em perspectiva — Pesquisa comparativa 2024
 
-**Ano-base:** 2024 (último exercício com série completa e comparável em todas as
-rúbricas)
+**Ano-base:** 2024 para custos fiscais e comparativos das seções 2–5; **2025**
+para o recorte mercado de trabalho × Bolsa Família (seções 8–9), com 2024
+arquivado para a comparação ano a ano.
 
 **Objetivo:** Reunir números oficiais e estudos institucionais (MDS, IBGE, Banco Central,
 Tesouro, Receita/SPE, TCU, IPEA, FGV) para que o leitor possa se informar,
@@ -667,84 +668,93 @@ trabalho muito precário.
 
 ## 8. Quem trabalha e quem está no Bolsa Família?
 
-![Pessoas Ativas e Inativas no Mercado de Trabalho](assets/charts/07_populacao_trabalho_bf.png)
+![Pessoas Ativas e Inativas no Mercado de Trabalho (2025)](assets/charts/07_populacao_trabalho_bf.png)
 
-### Volumes 2024
+### Volumes 2025
 
 
 | Grupo | Quantidade | Fonte |
 | ----- | ---------- | ----- |
-| CLT (empregados com carteira, setor privado) | **38,7 mi pessoas** | PNAD [20] |
-| Trabalhadores informais + intermitentes | **~40,8 mi** (40,3 mi informais + ~0,47 mi intermitentes) | PNAD [19] + RAIS [21] |
-| MEI (ativos) | **~11,7 mi** | Mapa de Empresas [44] |
-| Empresários ativos (não-MEI: ME, EPP até S/A e demais) | **~10,3 mi** | Mapa de Empresas [44] |
-| Pessoas em idade ativa no Bolsa Família **empregadas** (estimado) | **~26,7 mi** | MDS [27] + IPEA [25] |
-| Pessoas em idade ativa no Bolsa Família **não ocupadas** (estimado) | **~1,8 mi** | Residual [25][27] |
-| Pessoas no Bolsa Família **sem idade ativa** (estimado) | **~28,5 mi** | Proxy 50% de 57 mi [27] |
+| CLT (empregados com carteira, setor privado) | **38,9 mi pessoas** | PNAD [58] |
+| Trabalhadores informais + intermitentes | **~39,7 mi** (~39,2 mi informais + ~0,50 mi intermitentes est.) | PNAD [59] + RAIS [61] |
+| MEI (ativos) | **~12,7 mi** | Mapa de Empresas [60] |
+| Empresários ativos (não-MEI: ME, EPP até S/A e demais) | **~11,6 mi** | Mapa de Empresas [60] |
+| Pessoas em idade ativa no Bolsa Família **empregadas** (estimado) | **~24,2 mi** | MDS [62][63] + IPEA [25] |
+| Pessoas em idade ativa no Bolsa Família **não ocupadas** (estimado) | **~1,7 mi** | Residual [25][62] |
+| Pessoas no Bolsa Família **sem idade ativa** (estimado) | **~25,9 mi** | Proxy 50% de ~51,8 mi [62] |
 
 
 **Como ler o gráfico (em linguagem simples)**
 
 - As quatro primeiras barras são **formas de trabalho** no país (pessoas ou
-  negócios). As três últimas são **recortes estimados** dentro das
-  **57 milhões de pessoas** em famílias do Bolsa Família [27].
-- **Informais + intermitentes:** a PNAD conta ~40,3 mi de ocupados informais
-  [19]. A RAIS conta ~472 mil vínculos **intermitentes** (carteira atípica)
-  [21]. Somamos as duas ordens de grandeza; as fontes são diferentes e o
-  intermitente já é celetista — não é “mais informalidade pura”.
-- **MEI** e **empresários não-MEI** vêm do Mapa de Empresas (~22 mi de
-  negócios ativos; MEIs ~11,7 mi; o restante ~10,3 mi) [44]. São **CNPJ /
-  estabelecimentos**, não a mesma unidade da PNAD.
-- **Estimativas do Bolsa Família:** metade das pessoas nas famílias estaria
-  em idade ativa (~28,5 mi). O IPEA indica que **46,8%** das pessoas em
-  domicílios com o programa estavam **ocupadas** em 2023 [25] → ~26,7 mi
-  empregadas (CLT ou informal). O resto da idade ativa (~1,8 mi) é
-  **não ocupado** (desocupados + quem está fora da força de trabalho). O
-  restante (~28,5 mi) são crianças, adolescentes e idosos — **sem idade
-  ativa**.
+  negócios). As três últimas são **recortes estimados** dentro de cerca de
+  **51,8 milhões de pessoas** em famílias do Bolsa Família (média 2025) [62].
+- **Informais + intermitentes:** a PNAD Contínua (retrospectiva 2012–2025)
+  aponta ~**39,2 mi** de ocupados informais em 2025 (queda de ~273 mil frente
+  a 39,5 mi em 2024 na mesma série) [59]. A RAIS 2025 elevou o estoque total
+  de vínculos; a fatia de **intermitentes** é estimada em ~**0,50 mi** a partir
+  da participação observada em 2024 [61].
+- **MEI** e **empresários não-MEI** vêm do Mapa de Empresas (2º quadrimestre
+  2025: ~24,2 mi empresas ativas; MEIs ~12,7 mi; restante ~11,6 mi) [60]. São
+  **CNPJ / estabelecimentos**, não a mesma unidade da PNAD.
+- **Estimativas do Bolsa Família:** o MDS reporta cerca de **19,8 mi famílias**
+  na média mensal de 2025 e ~**R$ 160 bi** repassados no ano [62]; em dezembro,
+  ~18,7 mi famílias e **48,92 mi pessoas** [63]. Usamos ~51,8 mi pessoas como
+  média anual implícita. Metade estaria em idade ativa (~25,9 mi). O IPEA ainda
+  indica **46,8%** ocupados nos domicílios com o programa (referência 2023)
+  [25] → ~24,2 mi empregadas. O resto da idade ativa (~1,7 mi) é **não
+  ocupado**. O restante (~25,9 mi) são crianças, adolescentes e idosos.
 
 Os conjuntos **se cruzam**: há MEI informal, CLT com Bolsa Família na casa,
 empresário que também é conta-própria na PNAD, etc. O gráfico compara
 **ordens de grandeza**, não fatias exclusivas de uma pizza.
 
+O gráfico de **2024** (versão anterior desta seção) permanece arquivado em
+`assets/charts/07_populacao_trabalho_bf_2024.png` e nos dados de
+`data/2024_master.csv`, para a comparação da seção seguinte.
+
 ### Perfil de renda [28]
 
-- Domicílios com Bolsa Família: renda per capita média **R$ 774**.
+- Domicílios com Bolsa Família: renda per capita média **R$ 774** (2025).
 - Domicílios sem Bolsa Família: **R$ 2.682**.
 - Tamanho médio do lar Bolsa Família: **3,4** pessoas (maior que a média nacional).
-- Bolsa Família presente em **17,2%** dos domicílios brasileiros (referência IBGE mais
-  recente da série).
+- Bolsa Família presente em **17,2%** dos domicílios brasileiros em 2025
+  (era **18,6%** em 2024) [28].
 
 A Regra de Proteção existe para não cortar o benefício no mesmo mês em que a
-família consegue um emprego [22].
+família consegue um emprego [22]. Em 2025, a Portaria MDS nº 1.084 encurtou o
+prazo máximo na regra (até **12 meses** com 50% do benefício, em certos
+intervalos de renda) [64].
 
 ### Opiniões e Fatos
 
-> 💬 **“São 21 milhões no Bolsa contra 39 milhões de CLT — quase a mesma
+> 💬 **“São 19 milhões no Bolsa contra 39 milhões de CLT — quase a mesma
 > coisa. O trabalhador formal sustenta um país de assistidos.”**
 >
-> 📌 A conta **mistura unidades** e é uma das distorções mais repetidas em
-> grupos de mensagem e redes:
+> 📌 A conta **mistura unidades** e continua sendo uma das distorções mais
+> repetidas em grupos de mensagem e redes:
 >
-> - **21 milhões** são **famílias**, não trabalhadores adultos.
-> - Nessas famílias há **57 milhões de pessoas**, muitas crianças e
->   adolescentes [27].
-> - **38,7 milhões** são **pessoas** com carteira no setor **privado** [20].
-> - Em idade ativa, a estimativa é ~28,5 mi de pessoas — e ~26,7 mi delas
->   estariam **ocupadas** [25][27].
+> - **~19,8 milhões** são **famílias** (média 2025), não trabalhadores adultos
+>   [62].
+> - Nessas famílias há da ordem de **~50–52 milhões de pessoas**, muitas
+>   crianças e adolescentes [62][63].
+> - **38,9 milhões** são **pessoas** com carteira no setor **privado** [58].
+> - Em idade ativa, a estimativa é ~25,9 mi de pessoas — e ~24,2 mi delas
+>   estariam **ocupadas** [25][62].
 > - Os grupos **não são dois times separados**: há quem tenha CLT (ou
 >   informal) **e** Bolsa Família na mesma casa.
 >
 > 🔎 Comparar família com pessoa é como comparar “número de casas” com
-> “número de moradores”. O tamanho relativo **não** é “21 contra 39”.
+> “número de moradores”. O tamanho relativo **não** é “19 contra 39”.
 
 > 💬 **“Quem paga imposto é CLT; quem recebe não produz.”**
 >
-> 📌 A informalidade no Brasil é **39%** da ocupação [20]. Há ainda ~11,7 mi
-> de MEIs e ~10,3 mi de outros empresários ativos [44]. Grande parte da renda
-> baixa está no trabalho sem carteira, no conta-própria e no intermitente —
-> não na ociosidade. Renda per capita média do lar Bolsa Família (R$ 774) é
-> cerca de **29%** da renda do lar sem o programa (R$ 2.682) [28].
+> 📌 A informalidade no Brasil caiu para **38,1%** da ocupação em 2025 [58].
+> Há ainda ~12,7 mi de MEIs e ~11,6 mi de outros empresários ativos [60].
+> Grande parte da renda baixa está no trabalho sem carteira, no conta-própria
+> e no intermitente — não na ociosidade. Renda per capita média do lar Bolsa
+> Família (R$ 774) é cerca de **29%** da renda do lar sem o programa
+> (R$ 2.682) [28].
 >
 > 🔎 “Não produz” ignora trabalho doméstico, cuidado de filhos e ocupação
 > informal. Também ignora que **imposto no Brasil não é só IR da CLT**: há
@@ -752,9 +762,105 @@ família consegue um emprego [22].
 
 ---
 
+## 9. O que mudou entre 2024 e 2025
+
+Esta seção **não substitui** o restante da Pesquisa (ainda ancorada em
+custos fiscais de **2024** nas seções 2–5). Ela isola o recorte da seção 8 —
+mercado de trabalho e pessoas no Bolsa Família — e compara os dois anos com
+a **mesma metodologia de estimativa** onde há proxy.
+
+![Comparação de volumes 2024 vs 2025](assets/charts/09_comparacao_2024_2025_volumes.png)
+
+![Variação absoluta 2024 → 2025](assets/charts/10_comparacao_2024_2025_deltas.png)
+
+### O que cresceu
 
 
-## 9. O que foi o Auxílio Brasil — e o que mudou no Bolsa Família
+| Indicador | 2024 | 2025 | Variação | Fonte |
+| --------- | ---- | ---- | -------- | ----- |
+| CLT privado (PNAD) | 38,7 mi | **38,9 mi** | **+0,2 mi** (+0,5%) | [20][58] |
+| MEI ativos | ~11,7 mi | **~12,7 mi** | **+~1,0 mi** (+8%) | [44][60] |
+| Empresários ativos não-MEI | ~10,3 mi | **~11,6 mi** | **+~1,3 mi** (+12%) | [44][60] |
+| População ocupada (PNAD) | ~101,3 mi* | **103,0 mi** | **+~1,7 mi** | [59] |
+| Conta própria (PNAD) | 25,5 mi | **26,1 mi** | **+0,6 mi** | [58] |
+
+\*Ocupados 2024 implícitos na retrospectiva IBGE (crescimento de 1,7 mi até 103 mi).
+
+### O que diminuiu
+
+
+| Indicador | 2024 | 2025 | Variação | Fonte |
+| --------- | ---- | ---- | -------- | ----- |
+| Informais (série IBGE alinhada) | 39,5 mi | **~39,2 mi** | **−0,27 mi** | [59] |
+| Informais + intermitentes (metodologia desta Pesquisa) | ~40,8 mi | **~39,7 mi** | **−~1,1 mi** | [19][59][61] |
+| Taxa de informalidade | 39,0% | **38,1%** | **−0,9 p.p.** | [20][58] |
+| Taxa de desocupação anual | 6,6% | **5,6%** | **−1,0 p.p.** | [20][58] |
+| Famílias no Bolsa Família | 21,1 mi (jan/2024) | **~19,8 mi** (média 2025) | **−~1,3 mi** | [27][62] |
+| Pessoas no Bolsa Família | 57 mi (jan/2024) | **~51,8 mi** (média est. 2025) | **−~5,2 mi** | [27][62][63] |
+| Domicílios com Bolsa Família | 18,6% | **17,2%** | **−1,4 p.p.** | [28] |
+| BF idade ativa ocupados (est.) | ~26,7 mi | **~24,2 mi** | **−~2,4 mi** | [25][62] |
+| BF sem idade ativa (est.) | ~28,5 mi | **~25,9 mi** | **−~2,6 mi** | [62] |
+
+### Hipóteses que explicam o fenômeno
+
+As hipóteses abaixo são **leituras compatíveis com os dados**, não prova
+causal isolada. Cada uma aponta o que a evidência **suporta** e o que ainda
+é **limite**.
+
+1. **Mercado de trabalho mais aquecido (hipótese central suportada)**
+   - Desocupação no menor nível da série PNAD (5,6%); ocupação em 103 mi;
+     CLT privado em recorde (38,9 mi) [58][59].
+   - **Suporta:** saída do Bolsa Família por **aumento de renda** — o MDS
+     atribui ~2,07 mi desligamentos entre jan–out/2025 em grande parte a
+     renda/emprego e fim da Regra de Proteção [64].
+   - **Limite:** nem toda formalização gera saída imediata do programa (há
+     Regra de Proteção; renda per capita ainda precisa ultrapassar o teto).
+
+2. **Qualificação cadastral e cruzamento de bases (hipótese operacional)**
+   - Averiguação cadastral, cruzamento com CNIS/eSocial e bloqueios por
+     inconsistência reduziram o estoque elegível além do efeito “puro”
+     emprego [64].
+   - **Suporta:** queda de famílias **maior** que a simples variação da
+     desocupação (−1 p.p.).
+   - **Limite:** difícil separar, só com agregados públicos, quanto foi
+     emprego e quanto foi pente-fino.
+
+3. **Mudança na Regra de Proteção (hipótese de desenho)**
+   - Portaria MDS nº 1.084/2025 encurtou a permanência com 50% do benefício
+     (até 12 meses em faixas definidas) [64].
+   - **Suporta:** ~727 mil saídas por **conclusão** da regra até out/2025
+     [64] — efeito mecânico de calendário, não só de emprego novo.
+   - **Limite:** a regra ainda mantém milhões temporariamente no programa
+     (~2,3 mi famílias em dez/2025, segundo o MDS [62]).
+
+4. **Formalização via MEI e conta própria (hipótese de composição)**
+   - MEI (+~1 mi) e conta própria (+0,6 mi) cresceram junto com a queda da
+     taxa de informalidade [58][60].
+   - **Suporta:** parte da “informalidade PNAD” migra para CNPJ MEI — o
+     gráfico mostra **MEI sobe** enquanto **informais caem**.
+   - **Limite:** MEI não é CLT; renda pode continuar baixa e compatível com
+     Bolsa Família na mesma casa.
+
+5. **O que NÃO se deve concluir**
+   - A queda de ~5 mi pessoas estimadas no Bolsa Família **não** significa
+     que 5 mi adultos “passaram a trabalhar”: inclui crianças/idosos na
+     conta de pessoas e mudança de caseload familiar.
+   - A redução das barras BF ocupados/não ocupados/sem idade ativa é, em
+     grande parte, **escala do denominador** (menos pessoas no programa)
+     com a **mesma proxy** de 46,8% ocupados — não uma nova medição IPEA
+     para 2025 [25].
+
+### Dados arquivados
+
+| Ano | Arquivo de métricas | Gráfico da seção 8 |
+| --- | ------------------- | ------------------ |
+| 2024 | `data/2024_master.csv` | `assets/charts/07_populacao_trabalho_bf_2024.png` |
+| 2025 | `data/2025_master.csv` | `assets/charts/07_populacao_trabalho_bf.png` |
+| Comparativo | `data/comparison_2024_2025.csv` | `09_…` e `10_…` |
+
+---
+
+## 10. O que foi o Auxílio Brasil — e o que mudou no Bolsa Família
 
 Entre **dezembro de 2021** e **março de 2023**, o principal programa federal
 de transferência de renda às famílias pobres chamou-se **Auxílio Brasil**
@@ -842,7 +948,7 @@ o **valor da transferência**, não sobre o nome do cartão.
 
 
 
-## 10. Programas parecidos em outros países
+## 11. Programas parecidos em outros países
 
 Transferência de renda a famílias pobres **com condições** (escola, saúde) —
 em inglês, *conditional cash transfers* (CCT) — não é ideia só brasileira.
@@ -957,7 +1063,7 @@ brasileiro sobre transferência de renda não é exclusivo do Brasil.
 
 
 
-## 11. Limitações desta Pesquisa
+## 12. Limitações desta Pesquisa
 
 1. **Juros (Banco Central consolidado):** escopo maior que o do Bolsa Família
    (só União); inclui estados, municípios e swaps.
@@ -967,29 +1073,37 @@ brasileiro sobre transferência de renda não é exclusivo do Brasil.
    (CGU) e LAI 2023–2024 — não um painel mensal único.
 5. **Seções 6–7:** estudos longitudinais (2014–2025 e 2022–2023), não só o
    ano fiscal 2024.
-6. **Idade ativa e ocupação no Bolsa Família:** estimativas (50% idade ativa;
-   46,8% ocupados nos domicílios). Para precisão municipal use o CECAD [30].
+6. **Idade ativa e ocupação no Bolsa Família (seções 8–9):** estimativas
+   (50% idade ativa; 46,8% ocupados nos domicílios — IPEA **2023**, ainda sem
+   atualização oficial para 2025). Pessoas médias de 2025 (~51,8 mi) são
+   derivadas da média de famílias MDS e da razão pessoas/famílias de dez/2025
+   [62][63]. Intermitentes RAIS 2025 são estimados pela participação de 2024
+   no estoque [61]. Para precisão municipal use o CECAD [30].
 7. **Informais + intermitentes / MEI / empresários:** fontes e unidades
    diferentes (PNAD pessoas, RAIS vínculos, Mapa de Empresas CNPJ). Não somar
-   as barras como se fossem exclusivas.
+   as barras como se fossem exclusivas. O número de informais de **2024** na
+   tabela histórica desta Pesquisa (40,3 mi) difere da série revisada da
+   retrospectiva IBGE 2012–2025 (39,5 mi); a seção 9 aponta as duas leituras.
 8. **Opiniões citadas:** selecionadas pela circulação pública. Viralização
    **não** mede verdade.
 9. **Auxílio Brasil × Bolsa Família:** comparativo legal entre desenhos de
-   2021–2023 e 2023 em diante; custos e gráficos de 2024 refletem o programa
-   vigente naquele ano, não o nome do cartão em anos anteriores [46].
+   2021–2023 e 2023 em diante; custos e gráficos fiscais das seções 2–5
+   permanecem no ano-base **2024**.
 10. **Comparativo internacional:** tabela em cinco dimensões e gráfico de gasto
     versus pessoas usam ordens de grandeza, moedas e critérios de focalização
     distintos; gastos em PHP, COP, EUR, AUD e R$ não são somáveis diretamente
     [47][49][50][54][56][57].
-11. **Gráfico da seção 8:** MEI e empresários vêm de CNPJ ativos; CLT,
-    informais e Bolsa Família são recortes de pessoas em fontes diferentes; o
-    gráfico compara magnitudes, não fatias exclusivas de uma mesma população
-    [19][20][21][44].
+11. **Gráfico da seção 8 (2025) e comparação da seção 9:** MEI e empresários
+    vêm de CNPJ ativos; CLT, informais e Bolsa Família são recortes de pessoas
+    em fontes diferentes; o gráfico compara magnitudes, não fatias exclusivas
+    [58][59][60][62]. A queda das barras BF entre 2024 e 2025 escala o
+    denominador de pessoas com a **mesma** proxy de ocupação — não prova, por
+    si só, mudança na taxa de emprego dentro do programa.
 
 ---
 
 
-## 12. Síntese dos achados
+## 13. Síntese dos achados
 
 Os pontos abaixo resumem o que os **números desta Pesquisa** mostram. Não são
 opinião política.
@@ -1015,12 +1129,16 @@ opinião política.
    nome **Bolsa Família** pela Lei 14.601/2023, com piso de R$ 600,
    condicionalidades de saúde/escola e Regra de Proteção para quem aumenta a
    renda [46].
-7. No mercado de trabalho de 2024, há ordens de grandeza de **~38,7 mi** CLT
-   privados, **~40,8 mi** informais+intermitentes, **~11,7 mi** MEI e
-   **~10,3 mi** empresários ativos não-MEI — números de natureza distinta
-   das **~57 mi** pessoas em famílias do programa; muitas se cruzam na mesma
-   casa [19][20][21][27][44].
-8. Em perspectiva internacional, o Bolsa Família se destaca pela escala;
+7. No mercado de trabalho de **2025**, há ordens de grandeza de **~38,9 mi**
+   CLT privados, **~39,7 mi** informais+intermitentes, **~12,7 mi** MEI e
+   **~11,6 mi** empresários ativos não-MEI — números de natureza distinta
+   das **~51,8 mi** pessoas estimadas em famílias do programa; muitas se
+   cruzam na mesma casa [58][59][60][62].
+8. Entre **2024 e 2025**, cresceram CLT, MEI e empresários; caíram
+   informalidade, desocupação e o caseload do Bolsa Família (~−1,3 mi
+   famílias / ~−5 mi pessoas estimadas), em paralelo a saídas por aumento
+   de renda e fim da Regra de Proteção [58][62][64].
+9. Em perspectiva internacional, o Bolsa Família se destaca pela escala;
    programas como **4Ps** (Filipinas) e **RSA** (França) ilustram modelos
    comparáveis em documentação, mas com cobertura e condicionalidades
    diferentes [47][49][50].
@@ -1028,12 +1146,12 @@ opinião política.
 ---
 
 
-## 13. Fontes
+## 14. Fontes
 
 Lista completa do que alimenta esta Pesquisa. Cada número nas seções aponta
 para o ID `[N]`.
 
-**Cobertura:** IDs **[1]–[30]** e **[44]–[57]** alimentam dados, leis e estudos nas seções 1–12. IDs **[31]–[43]** documentam opiniões viralizadas citadas nos blocos “Opiniões e Fatos” (subseção Circulação).
+**Cobertura:** IDs **[1]–[30]** e **[44]–[64]** alimentam dados, leis e estudos nas seções 1–13. IDs **[31]–[43]** documentam opiniões viralizadas citadas nos blocos “Opiniões e Fatos” (subseção Circulação).
 
 ### Dados e estudos
 
@@ -1084,6 +1202,13 @@ para o ID `[N]`.
 | [55] | Family Tax Benefit — crianças apoiadas e beneficiários (2025)                | Tax Expenditures Lab / DSS      | [Abrir](https://www.taxexpenditures.org/2025/08/19/many-parents-mostly-mothers-lose-family-payments-from-the-first-dollar-they-earn/)                                                                                    |
 | [56] | Orçamento 4Ps 2024 — PHP 112,8 bi para 4,4 mi domicílios-alvo                 | PNA / DSWD (Filipinas)          | [Abrir](https://www.pna.gov.ph/articles/1219723)                                                                                                                                                                          |
 | [57] | PKH 2024 — Rp 28,71 tri; 10 mi famílias beneficiárias                          | Kemensos (Indonésia)            | [Abrir](https://economy.okezone.com/read/2024/12/31/320/3100266/bansos-pkh-dan-bpnt-2024-terealisasi-100-ini-daftar-penerimanya)                                                                                          |
+| [58] | PNAD Contínua 2025: desocupação anual 5,6%; CLT privado 38,9 mi; informalidade 38,1% | IBGE                       | [Abrir](https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/45759-pnad-continua-em-2025-taxa-anual-de-desocupacao-foi-de-5-6-enquanto-taxa-de-subutilizacao-foi-14-5) |
+| [59] | PNAD Contínua — retrospectiva do mercado de trabalho 2012–2025                | IBGE                          | [Abrir](https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Principais_destaques_PNAD_continua/2012_2025/PNAD_continua_retrospectiva_2012_2025.pdf)                  |
+| [60] | Mapa de Empresas — boletim 2º quadrimestre 2025 (MEI e empresas ativas)       | Governo Federal               | [Abrir](https://www.gov.br/empresas-e-negocios/pt-br/mapa-de-empresas/boletins/mapa-de-empresas-boletim-2o-quadrimestre-2025.pdf)                                                                                      |
+| [61] | RAIS ano-base 2025 — apresentação e estoque de vínculos                       | MTE                           | [Abrir](https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/rais/rais-2025/apresentacao-rais-2025.pdf)                 |
+| [62] | Bolsa Família 2025 — ~19,8 mi famílias; ~R$ 160 bi no ano                     | MDS                           | [Abrir](https://www.gov.br/mds/pt-br/noticias-e-conteudos/desenvolvimento-social/noticias-desenvolvimento-social/bolsa-familia-amplia-inclusao-e-fortalece-gestoes-estaduais-e-municipais)                              |
+| [63] | VIS DATA / MDS — famílias e pessoas (dez/2025: ~18,7 mi famílias; ~48,9 mi pessoas) | MDS                      | [Abrir](https://aplicacoes.mds.gov.br/sagi/vis/data/index.php?view=Bolsa%20Fam%C3%ADlia)                                                                                                                                |
+| [64] | Saídas do Bolsa Família em 2025 por renda, Regra de Proteção e Portaria 1.084 | MDS / imprensa                | [Abrir](https://fpabramo.org.br/dois-milhoes-de-familias-deixaram-o-bolsa-familia-em-2025-por-aumento-de-renda-e-emprego/)                                                                                              |
 
 
 
@@ -1091,7 +1216,7 @@ para o ID `[N]`.
 ### Circulação das opiniões citadas
 
 Estas fontes documentam **o que foi dito e compartilhado**, não a veracidade
-da opinião. Mapeiam declarações citadas nas seções 2–8 (juros, renúncias, emendas, previdência militar, trabalho, escolaridade e redes). As fontes **[44]–[57]** referem-se a dados comparativos e internacionais (seções 8–10), não a opiniões.
+da opinião. Mapeiam declarações citadas nas seções 2–8 (juros, renúncias, emendas, previdência militar, trabalho, escolaridade e redes). As fontes **[44]–[64]** referem-se a dados comparativos e internacionais (seções 8–11), não a opiniões.
 
 
 | ID   | Título                                                        | Tipo                             | Link                                                                                                                                                       |

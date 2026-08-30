@@ -274,6 +274,55 @@
       "institution": "Kemensos (Indonesia)",
       "url": "https://economy.okezone.com/read/2024/12/31/320/3100266/bansos-pkh-dan-bpnt-2024-terealisasi-100-ini-daftar-penerimanya",
       "topics": ["cct_international", "pkh"]
+    },
+    {
+      "id": 58,
+      "title": "PNAD Contínua 2025: desocupação 5,6%; CLT privado 38,9 mi; informalidade 38,1%",
+      "institution": "IBGE",
+      "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/45759-pnad-continua-em-2025-taxa-anual-de-desocupacao-foi-de-5-6-enquanto-taxa-de-subutilizacao-foi-14-5",
+      "topics": ["labor", "clt", "2025"]
+    },
+    {
+      "id": 59,
+      "title": "PNAD Contínua — retrospectiva do mercado de trabalho 2012–2025",
+      "institution": "IBGE",
+      "url": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Principais_destaques_PNAD_continua/2012_2025/PNAD_continua_retrospectiva_2012_2025.pdf",
+      "topics": ["labor", "informals", "2025"]
+    },
+    {
+      "id": 60,
+      "title": "Mapa de Empresas — boletim 2º quadrimestre 2025",
+      "institution": "Governo Federal",
+      "url": "https://www.gov.br/empresas-e-negocios/pt-br/mapa-de-empresas/boletins/mapa-de-empresas-boletim-2o-quadrimestre-2025.pdf",
+      "topics": ["mei", "empresas", "2025"]
+    },
+    {
+      "id": 61,
+      "title": "RAIS ano-base 2025 — apresentação e estoque de vínculos",
+      "institution": "MTE",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/rais/rais-2025/apresentacao-rais-2025.pdf",
+      "topics": ["rais", "2025"]
+    },
+    {
+      "id": 62,
+      "title": "Bolsa Família 2025 — ~19,8 mi famílias; ~R$ 160 bi no ano",
+      "institution": "MDS",
+      "url": "https://www.gov.br/mds/pt-br/noticias-e-conteudos/desenvolvimento-social/noticias-desenvolvimento-social/bolsa-familia-amplia-inclusao-e-fortalece-gestoes-estaduais-e-municipais",
+      "topics": ["bf_families", "bf_cost", "2025"]
+    },
+    {
+      "id": 63,
+      "title": "VIS DATA / MDS — famílias e pessoas Bolsa Família (dez/2025)",
+      "institution": "MDS",
+      "url": "https://aplicacoes.mds.gov.br/sagi/vis/data/index.php?view=Bolsa%20Fam%C3%ADlia",
+      "topics": ["bf_families", "bf_people", "2025"]
+    },
+    {
+      "id": 64,
+      "title": "Saídas do Bolsa Família em 2025 por renda e Regra de Proteção",
+      "institution": "MDS / imprensa",
+      "url": "https://fpabramo.org.br/dois-milhoes-de-familias-deixaram-o-bolsa-familia-em-2025-por-aumento-de-renda-e-emprego/",
+      "topics": ["bf_exits", "2025"]
     }
   ]
 }

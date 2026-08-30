@@ -1,0 +1,29 @@
+metric,value,unit,year,source_id,notes
+pnad_clt_privado,38900000,people,2025,58,IBGE PNAD Contínua annual 2025 — private employees with carteira (series high)
+pnad_sem_carteira_privado,13800000,people,2025,58,IBGE PNAD Contínua annual 2025 — private employees without carteira
+pnad_informais,39227000,people,2025,59,"IBGE retrospectiva 2012-2025: 39.5 mi in 2024 minus 273k in 2025"
+pnad_informalidade_taxa,38.1,percent,2025,58,Annual informality rate 2025
+pnad_desocupacao_anual,5.6,percent,2025,58,Lowest annual unemployment rate in PNAD Contínua series
+pnad_ocupados,103000000,people,2025,59,Annual occupied population 2025
+pnad_conta_propria,26100000,people,2025,58,Self-employed annual average 2025 (series high)
+mei_ativos,12660170,firms,2025,60,Mapa de Empresas 2Q 2025 — MEI ativos
+empresas_ativas_total,24213445,firms,2025,60,Mapa de Empresas 2Q 2025 — empresas ativas
+empresarios_nao_mei,11553275,firms,2025,60,Proxy: empresas ativas total minus MEI
+rais_total_vinculos,59970945,vinculos,2025,61,RAIS stock end-2025
+rais_intermitentes,495400,vinculos,2025,61,"Estimate: 2024 intermitentes share of RAIS stock applied to 2025 stock (~0.826%)"
+informais_mais_intermitentes,39722400,people,2025,59,"PNAD informals 39.227 mi + RAIS intermitentes est. 0.495 mi"
+bf_families_avg,19800000,families,2025,62,MDS: cerca de 19.8 mi famílias atendidas mensalmente em 2025
+bf_families_dec,18700000,families,2025,63,MDS/VIS DATA: ~18.7 mi famílias em dezembro/2025
+bf_people_dec,48920000,people,2025,63,MDS: 48.92 mi pessoas em dezembro/2025
+bf_people_avg,51800000,people,2025,62,"Estimate: avg families 19.8 mi × (48.92/18.7) people-per-family from Dec/2025"
+bf_cost_annual,160000000000,BRL,2025,62,MDS: quase R$ 160 bi de janeiro a dezembro/2025
+bf_domicilios_share,17.2,percent,2025,28,IBGE PNAD Rendimento de todas as fontes 2025
+bf_renda_per_capita,774,BRL_month,2025,28,Avg household per capita income of BF households
+non_bf_renda_per_capita,2682,BRL_month,2025,28,Avg household per capita income of non-BF households
+bf_avg_household_size_ibge,3.4,people,2025,28,Avg household size among BF recipients (IBGE)
+ipea_occupied_share_bf,46.8,percent,2023,25,"Still IPEA 2023 share — no 2025 update; used as proxy for BF employed estimate"
+bf_working_age_est,25900000,people,2025,62,"Proxy 50% of ~51.8 mi people in BF families"
+bf_working_age_employed_est,24242400,people,2025,25,"46.8% occupied share × 51.8 mi people"
+bf_working_age_not_employed_est,1657600,people,2025,25,"Working-age residual: 25.9 - 24.242 mi"
+bf_not_working_age_est,25900000,people,2025,62,Complement to 50% working-age proxy
+bf_families_exits_income,2069776,families,2025,64,"MDS: Jan-Oct 2025 exits — 1.318 mi by income rise + 0.727 mi end of Regra + 0.025 mi voluntary"

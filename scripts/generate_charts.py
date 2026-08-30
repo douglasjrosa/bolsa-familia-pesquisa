@@ -12,6 +12,8 @@ import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data" / "2024_master.csv"
+DATA_2025 = ROOT / "data" / "2025_master.csv"
+COMPARISON = ROOT / "data" / "comparison_2024_2025.csv"
 OUT = ROOT / "assets" / "charts"
 OUT.mkdir(parents=True, exist_ok=True)
 
@@ -25,9 +27,13 @@ LIGHT = "#F1F5F9"
 TEXT = "#0F172A"
 
 
-def load_metrics() -> dict[str, float]:
-    df = pd.read_csv(DATA)
+def load_metrics(path: Path | None = None) -> dict[str, float]:
+    df = pd.read_csv(path or DATA)
     return {row.metric: float(row.value) for row in df.itertuples()}
+
+
+def load_comparison() -> pd.DataFrame:
+    return pd.read_csv(COMPARISON)
 
 
 def style_axes(ax: plt.Axes) -> None:
@@ -372,7 +378,7 @@ def chart_efeito_trabalho(m: dict[str, float]) -> None:
     save(fig, "06_efeito_trabalho.png")
 
 
-def chart_populacao(m: dict[str, float]) -> None:
+def chart_populacao(m: dict[str, float], *, year: int = 2025, outfile: str | None = None) -> None:
     bar_spacing = 1.45
     bar_width = 0.46
     x_label_font_size = 7.2
@@ -409,7 +415,7 @@ def chart_populacao(m: dict[str, float]) -> None:
     ax.grid(axis="y", color="#E2E8F0", linewidth=0.8)
     ax.set_ylabel("Milhões de pessoas", fontsize=11)
     ax.set_title(
-        "Pessoas Ativas e Inativas no Mercado de Trabalho",
+        f"Pessoas Ativas e Inativas no Mercado de Trabalho ({year})",
         fontsize=13,
         fontweight="bold",
         color=TEXT,
@@ -426,14 +432,25 @@ def chart_populacao(m: dict[str, float]) -> None:
             color=TEXT,
         )
     ax.set_ylim(0, max(values) * 1.22)
-    footnotes = [
-        "* Informais PNAD (40,3 mi) + intermitentes RAIS (~0,47 mi; celetistas atípicos).",
-        "** Empresas ativas menos MEI (Mapa de Empresas).",
-        "*** Estimativas Bolsa Família: trabalhadores ocupados = 46,8% das pessoas em "
-        "lares (IPEA);",
-        "desocupados em idade ativa = residual; crianças (0–13 anos) e idosos (65+) ≈ "
-        "50% do total. Conjuntos se cruzam.",
-    ]
+    if year >= 2025:
+        footnotes = [
+            "* Informais PNAD (~39,2 mi) + intermitentes RAIS (est. ~0,50 mi; "
+            "celetistas atípicos).",
+            "** Empresas ativas menos MEI (Mapa de Empresas, 2º quadrimestre/2025).",
+            "*** Estimativas Bolsa Família: trabalhadores ocupados = 46,8% das pessoas "
+            "em lares (IPEA 2023, proxy);",
+            "desocupados em idade ativa = residual; crianças (0–13 anos) e idosos (65+) "
+            "≈ 50% do total (~51,8 mi pessoas). Conjuntos se cruzam.",
+        ]
+    else:
+        footnotes = [
+            "* Informais PNAD (40,3 mi) + intermitentes RAIS (~0,47 mi; celetistas atípicos).",
+            "** Empresas ativas menos MEI (Mapa de Empresas).",
+            "*** Estimativas Bolsa Família: trabalhadores ocupados = 46,8% das pessoas em "
+            "lares (IPEA);",
+            "desocupados em idade ativa = residual; crianças (0–13 anos) e idosos (65+) ≈ "
+            "50% do total. Conjuntos se cruzam.",
+        ]
     footnote_y_start = -0.22
     footnote_line_step = 0.036
     for idx, line in enumerate(footnotes):
@@ -449,7 +466,143 @@ def chart_populacao(m: dict[str, float]) -> None:
             clip_on=False,
         )
     fig.subplots_adjust(left=0.08, right=0.98, bottom=0.21, top=0.90)
-    save(fig, "07_populacao_trabalho_bf.png", tight=False)
+    save(fig, outfile or "07_populacao_trabalho_bf.png", tight=False)
+
+
+def chart_comparison_volumes() -> None:
+    """Grouped bars: 2024 vs 2025 for the seven labor/BF volume indicators."""
+    m24 = load_metrics(DATA)
+    m25 = load_metrics(DATA_2025)
+    labels = [
+        "CLT\nprivado",
+        "Informais +\nintermitentes",
+        "MEI\nativos",
+        "Empresários\nnão-MEI",
+        "BF idade ativa\nocupados*",
+        "BF idade ativa\nnão ocupados*",
+        "BF sem idade\nativa*",
+    ]
+    vals_2024 = [
+        m24["pnad_clt_privado"] / 1e6,
+        m24["informais_mais_intermitentes"] / 1e6,
+        m24["mei_ativos"] / 1e6,
+        m24["empresarios_nao_mei"] / 1e6,
+        m24["bf_working_age_employed_est"] / 1e6,
+        m24["bf_working_age_not_employed_est"] / 1e6,
+        m24["bf_not_working_age_est"] / 1e6,
+    ]
+    vals_2025 = [
+        m25["pnad_clt_privado"] / 1e6,
+        m25["informais_mais_intermitentes"] / 1e6,
+        m25["mei_ativos"] / 1e6,
+        m25["empresarios_nao_mei"] / 1e6,
+        m25["bf_working_age_employed_est"] / 1e6,
+        m25["bf_working_age_not_employed_est"] / 1e6,
+        m25["bf_not_working_age_est"] / 1e6,
+    ]
+
+    x = np.arange(len(labels))
+    width = 0.38
+    fig, ax = plt.subplots(figsize=(12.0, 6.6))
+    bars24 = ax.bar(x - width / 2, vals_2024, width, color=SLATE, label="2024")
+    bars25 = ax.bar(x + width / 2, vals_2025, width, color=TEAL, label="2025")
+    style_axes(ax)
+    ax.grid(axis="y", color="#E2E8F0", linewidth=0.8)
+    ax.set_ylabel("Milhões", fontsize=11)
+    ax.set_xticks(x)
+    ax.set_xticklabels(labels, fontsize=8.2)
+    ax.set_title(
+        "Mercado de trabalho × Bolsa Família — 2024 vs 2025",
+        fontsize=13,
+        fontweight="bold",
+        color=TEXT,
+        pad=12,
+    )
+    ax.legend(frameon=False, fontsize=10)
+    ax.set_ylim(0, max(max(vals_2024), max(vals_2025)) * 1.22)
+    for bars in (bars24, bars25):
+        for bar in bars:
+            h = bar.get_height()
+            ax.text(
+                bar.get_x() + bar.get_width() / 2,
+                h + 0.5,
+                f"{h:.1f}",
+                ha="center",
+                fontsize=7.5,
+                color=TEXT,
+            )
+    ax.text(
+        0.0,
+        -0.16,
+        "* Estimativas BF usam proxy IPEA 46,8% ocupados (2023) e 50% idade ativa — "
+        "mesma metodologia nos dois anos.",
+        transform=ax.transAxes,
+        fontsize=8.0,
+        color=SLATE,
+        ha="left",
+        va="top",
+        clip_on=False,
+    )
+    fig.subplots_adjust(left=0.08, right=0.98, bottom=0.18, top=0.90)
+    save(fig, "09_comparacao_2024_2025_volumes.png", tight=False)
+
+
+def chart_comparison_deltas() -> None:
+    """Horizontal bars of absolute change (millions) between 2024 and 2025."""
+    rows = [
+        ("BF sem idade ativa*", -2.60),
+        ("BF idade ativa ocupados*", -2.43),
+        ("Informais + intermitentes", -1.05),
+        ("BF idade ativa não ocupados*", -0.17),
+        ("CLT privado", 0.20),
+        ("MEI ativos", 0.96),
+        ("Empresários não-MEI", 1.25),
+    ]
+    labels = [r[0] for r in rows]
+    deltas = [r[1] for r in rows]
+    colors = [TEAL if d >= 0 else CORAL for d in deltas]
+
+    fig, ax = plt.subplots(figsize=(10.5, 6.0))
+    y = np.arange(len(labels))
+    ax.barh(y, deltas, color=colors, height=0.62)
+    style_axes(ax)
+    ax.axvline(0, color="#94A3B8", linewidth=1.0)
+    ax.set_yticks(y)
+    ax.set_yticklabels(labels, fontsize=9.5)
+    ax.set_xlabel("Variação 2025 − 2024 (milhões)", fontsize=11)
+    ax.set_title(
+        "O que cresceu e o que diminuiu (2024 → 2025)",
+        fontsize=13,
+        fontweight="bold",
+        color=TEXT,
+        pad=12,
+    )
+    ax.grid(axis="x", color="#E2E8F0", linewidth=0.8)
+    for yi, d in zip(y, deltas):
+        ax.text(
+            d + (0.08 if d >= 0 else -0.08),
+            yi,
+            f"{d:+.2f} mi",
+            va="center",
+            ha="left" if d >= 0 else "right",
+            fontsize=9,
+            fontweight="bold",
+            color=TEXT,
+        )
+    ax.text(
+        0.0,
+        -0.12,
+        "* Barras BF: variação das estimativas (mesma metodologia). Verde = crescimento; "
+        "laranja = redução.",
+        transform=ax.transAxes,
+        fontsize=8.0,
+        color=SLATE,
+        ha="left",
+        va="top",
+        clip_on=False,
+    )
+    fig.subplots_adjust(left=0.28, right=0.96, bottom=0.14, top=0.90)
+    save(fig, "10_comparacao_2024_2025_deltas.png", tight=False)
 
 
 def load_international_programs() -> pd.DataFrame:
@@ -575,15 +728,19 @@ def chart_international_programs() -> None:
 
 
 def main() -> None:
-    m = load_metrics()
-    chart_comparativo(m)
-    chart_custo_por_pessoa(m)
-    chart_selic(m)
-    chart_renuncias(m)
-    chart_saida_escolaridade(m)
-    chart_efeito_trabalho(m)
-    chart_populacao(m)
+    m24 = load_metrics(DATA)
+    m25 = load_metrics(DATA_2025)
+    chart_comparativo(m24)
+    chart_custo_por_pessoa(m24)
+    chart_selic(m24)
+    chart_renuncias(m24)
+    chart_saida_escolaridade(m24)
+    chart_efeito_trabalho(m24)
+    chart_populacao(m24, year=2024, outfile="07_populacao_trabalho_bf_2024.png")
+    chart_populacao(m25, year=2025, outfile="07_populacao_trabalho_bf.png")
     chart_international_programs()
+    chart_comparison_volumes()
+    chart_comparison_deltas()
     print("done")
 
 
